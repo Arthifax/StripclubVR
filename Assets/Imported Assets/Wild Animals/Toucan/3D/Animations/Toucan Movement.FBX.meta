@@ -1,0 +1,1212 @@
+fileFormatVersion: 2
+guid: 021c3c5f3ce397548a9d6311260a319f
+timeCreated: 1534518421
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Eye Left
+    100002: Eye Right
+    100004: Toucan
+    100006: Toucan Hair Back
+    100008: Toucan Hair Back02
+    100010: Toucan Head
+    100012: Toucan Jaw
+    100014: Toucan L Back Toe
+    100016: Toucan L Back Toe02
+    100018: Toucan L Calf
+    100020: Toucan L Clavicle
+    100022: Toucan L Eyebrow
+    100024: Toucan L Finger0
+    100026: Toucan L Finger01
+    100028: Toucan L Foot
+    100030: Toucan L Forearm
+    100032: Toucan L Hand
+    100034: Toucan L Lower Eyelid
+    100036: Toucan L Mouth
+    100038: Toucan L Thigh
+    100040: Toucan L Toe0
+    100042: Toucan L Toe01
+    100044: Toucan L Upper Eyelid
+    100046: Toucan L UpperArm
+    100048: //RootNode
+    100050: Toucan Neck
+    100052: Toucan Pelvis
+    100054: Toucan R Back Toe
+    100056: Toucan R Back Toe02
+    100058: Toucan R Calf
+    100060: Toucan R Clavicle
+    100062: Toucan R Eyebrow
+    100064: Toucan R Finger0
+    100066: Toucan R Finger01
+    100068: Toucan R Foot
+    100070: Toucan R Forearm
+    100072: Toucan R Hand
+    100074: Toucan R Lower Eyelid
+    100076: Toucan R Mouth
+    100078: Toucan R Thigh
+    100080: Toucan R Toe0
+    100082: Toucan R Toe01
+    100084: Toucan R Upper Eyelid
+    100086: Toucan R UpperArm
+    100088: Toucan Spine
+    100090: Toucan Spine1
+    100092: Toucan Spine2
+    100094: Toucan Tail
+    100096: Toucan Tail1
+    100098: Toucan Tail2
+    100100: Toucan Tongue
+    100102: Toucan Tongue02
+    100104: Toucan Tongue03
+    400000: Eye Left
+    400002: Eye Right
+    400004: Toucan
+    400006: Toucan Hair Back
+    400008: Toucan Hair Back02
+    400010: Toucan Head
+    400012: Toucan Jaw
+    400014: Toucan L Back Toe
+    400016: Toucan L Back Toe02
+    400018: Toucan L Calf
+    400020: Toucan L Clavicle
+    400022: Toucan L Eyebrow
+    400024: Toucan L Finger0
+    400026: Toucan L Finger01
+    400028: Toucan L Foot
+    400030: Toucan L Forearm
+    400032: Toucan L Hand
+    400034: Toucan L Lower Eyelid
+    400036: Toucan L Mouth
+    400038: Toucan L Thigh
+    400040: Toucan L Toe0
+    400042: Toucan L Toe01
+    400044: Toucan L Upper Eyelid
+    400046: Toucan L UpperArm
+    400048: //RootNode
+    400050: Toucan Neck
+    400052: Toucan Pelvis
+    400054: Toucan R Back Toe
+    400056: Toucan R Back Toe02
+    400058: Toucan R Calf
+    400060: Toucan R Clavicle
+    400062: Toucan R Eyebrow
+    400064: Toucan R Finger0
+    400066: Toucan R Finger01
+    400068: Toucan R Foot
+    400070: Toucan R Forearm
+    400072: Toucan R Hand
+    400074: Toucan R Lower Eyelid
+    400076: Toucan R Mouth
+    400078: Toucan R Thigh
+    400080: Toucan R Toe0
+    400082: Toucan R Toe01
+    400084: Toucan R Upper Eyelid
+    400086: Toucan R UpperArm
+    400088: Toucan Spine
+    400090: Toucan Spine1
+    400092: Toucan Spine2
+    400094: Toucan Tail
+    400096: Toucan Tail1
+    400098: Toucan Tail2
+    400100: Toucan Tongue
+    400102: Toucan Tongue02
+    400104: Toucan Tongue03
+    2100000: Eyes
+    2100002: Eye Shine
+    2300000: Eye Left
+    2300002: Eye Right
+    3300000: Eye Left
+    3300002: Eye Right
+    4300000: Eye Left
+    4300002: Eye Right
+    7400000: Toucan Walk
+    7400002: Toucan Fly
+    7400004: Toucan Roll
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Toucan Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Toucan
+        weight: 1
+      - path: Toucan/Toucan Pelvis
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Back Toe
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Back Toe/Toucan L Back Toe02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Toe0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Toe0/Toucan L Toe01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Back Toe
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Back Toe/Toucan R Back Toe02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Toe0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Toe0/Toucan R Toe01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0/Toucan
+          L Finger01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Eye Left
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Eye Right
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Hair Back
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Hair Back/Toucan Hair Back02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02/Toucan Tongue03
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Eyebrow
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Lower Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Mouth
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Upper Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Eyebrow
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Lower Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Mouth
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Upper Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0/Toucan
+          R Finger01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1/Toucan Tail2
+        weight: 1
+      - path: Toucan Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 49a686b59b1b4d543a086cd60ca84459, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Toucan Fly
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Toucan
+        weight: 1
+      - path: Toucan/Toucan Pelvis
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Back Toe
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Back Toe/Toucan L Back Toe02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Toe0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Toe0/Toucan L Toe01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Back Toe
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Back Toe/Toucan R Back Toe02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Toe0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Toe0/Toucan R Toe01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0/Toucan
+          L Finger01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Eye Left
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Eye Right
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Hair Back
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Hair Back/Toucan Hair Back02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02/Toucan Tongue03
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Eyebrow
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Lower Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Mouth
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Upper Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Eyebrow
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Lower Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Mouth
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Upper Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0/Toucan
+          R Finger01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1/Toucan Tail2
+        weight: 1
+      - path: Toucan Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 49a686b59b1b4d543a086cd60ca84459, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Toucan Roll
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Toucan
+        weight: 1
+      - path: Toucan/Toucan Pelvis
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Back Toe
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Back Toe/Toucan L Back Toe02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Toe0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+          L Toe0/Toucan L Toe01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Back Toe
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Back Toe/Toucan R Back Toe02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Toe0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+          R Toe0/Toucan R Toe01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          L Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0/Toucan
+          L Finger01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Eye Left
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Eye Right
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Hair Back
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Hair Back/Toucan Hair Back02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02/Toucan Tongue03
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Eyebrow
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Lower Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Mouth
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan L Upper Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Eyebrow
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Lower Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Mouth
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          Neck/Toucan Head/Toucan R Upper Eyelid
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan
+          R Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0/Toucan
+          R Finger01
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1
+        weight: 1
+      - path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1/Toucan Tail2
+        weight: 1
+      - path: Toucan Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 49a686b59b1b4d543a086cd60ca84459, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Toucan Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toucan Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Toucan(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000047564322, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan
+      parentName: Toucan(Clone)
+      position: {x: -0, y: 0.11612167, z: -0.058886606}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Toucan Pelvis
+      parentName: Toucan
+      position: {x: -0.058886614, y: -0.000000082887716, z: 0.0061575696}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Toucan L Thigh
+      parentName: Toucan Pelvis
+      position: {x: 0.000000104904174, y: 0.00000010967254, z: 0.07657747}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Toucan L Calf
+      parentName: Toucan L Thigh
+      position: {x: -0.05841283, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: Toucan L Foot
+      parentName: Toucan L Calf
+      position: {x: -0.0418925, y: -0.0000000047683715, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Toucan L Back Toe
+      parentName: Toucan L Foot
+      position: {x: -0.009427237, y: -0.00079067226, z: -0.0024738025}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Toucan L Back Toe02
+      parentName: Toucan L Back Toe
+      position: {x: -0.042879667, y: -0.000033985376, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Toucan L Toe0
+      parentName: Toucan L Foot
+      position: {x: -0.018412374, y: 0.03345839, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan L Toe01
+      parentName: Toucan L Toe0
+      position: {x: -0.049081992, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan R Thigh
+      parentName: Toucan Pelvis
+      position: {x: -0.00000010430814, y: -0.00000009685756, z: -0.07657747}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan R Calf
+      parentName: Toucan R Thigh
+      position: {x: -0.058412835, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Toucan R Foot
+      parentName: Toucan R Calf
+      position: {x: -0.0418925, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: Toucan R Back Toe
+      parentName: Toucan R Foot
+      position: {x: -0.009427236, y: -0.00079067226, z: 0.002473812}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Toucan R Back Toe02
+      parentName: Toucan R Back Toe
+      position: {x: -0.042879667, y: -0.000033985376, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan R Toe0
+      parentName: Toucan R Foot
+      position: {x: -0.018412374, y: 0.03345839, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan R Toe01
+      parentName: Toucan R Toe0
+      position: {x: -0.049081996, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan Spine
+      parentName: Toucan Pelvis
+      position: {x: -0.026908282, y: -0.000067939756, z: 0.000000037410643}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toucan Spine1
+      parentName: Toucan Spine
+      position: {x: -0.09186828, y: -0.00007314682, z: -2.0290826e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Toucan Spine2
+      parentName: Toucan Spine1
+      position: {x: -0.09186827, y: -0.000073156356, z: -2.0287189e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Toucan L Clavicle
+      parentName: Toucan Spine2
+      position: {x: -0.045281675, y: -0.0033551787, z: 0.01855036}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toucan L UpperArm
+      parentName: Toucan L Clavicle
+      position: {x: -0.07103896, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toucan L Forearm
+      parentName: Toucan L UpperArm
+      position: {x: -0.10235764, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Toucan L Hand
+      parentName: Toucan L Forearm
+      position: {x: -0.059193704, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan L Finger0
+      parentName: Toucan L Hand
+      position: {x: -0.10990875, y: 0, z: -0.000000019073486}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Toucan L Finger01
+      parentName: Toucan L Finger0
+      position: {x: -0.062028408, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Toucan Neck
+      parentName: Toucan Spine2
+      position: {x: -0.09186832, y: -0.0000535202, z: -1.484659e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Toucan Head
+      parentName: Toucan Neck
+      position: {x: -0.06722832, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Eye Left
+      parentName: Toucan Head
+      position: {x: -0.21485977, y: 0.095988065, z: 0.054847788}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.84, y: 0.84, z: 0.84}
+    - name: Eye Right
+      parentName: Toucan Head
+      position: {x: -0.21485977, y: 0.095988214, z: -0.054849923}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.8481749, y: 0.84817433, z: 0.8481746}
+    - name: Toucan Hair Back
+      parentName: Toucan Head
+      position: {x: -0.14535011, y: -0.11705792, z: -0.0000001590034}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Toucan Hair Back02
+      parentName: Toucan Hair Back
+      position: {x: -0.08491602, y: -0.00006572723, z: -1.3504177e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan Jaw
+      parentName: Toucan Head
+      position: {x: -0.1383911, y: 0.03162512, z: 0.000000043218314}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Toucan Tongue
+      parentName: Toucan Jaw
+      position: {x: -0.06894724, y: 0.07015011, z: 0.00000018263482}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999994}
+    - name: Toucan Tongue02
+      parentName: Toucan Tongue
+      position: {x: -0.063933805, y: -0.000047225953, z: -1.3096724e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Toucan Tongue03
+      parentName: Toucan Tongue02
+      position: {x: -0.06391536, y: -0.000050888062, z: -1.4115357e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Toucan L Eyebrow
+      parentName: Toucan Head
+      position: {x: -0.32941207, y: 0.1538154, z: 0.08271129}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Toucan L Lower Eyelid
+      parentName: Toucan Head
+      position: {x: -0.2091667, y: 0.102827944, z: 0.05934017}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Toucan L Mouth
+      parentName: Toucan Head
+      position: {x: -0.11873157, y: 0.11630308, z: 0.10557519}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Toucan L Upper Eyelid
+      parentName: Toucan Head
+      position: {x: -0.21403465, y: 0.09630854, z: 0.06725289}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Toucan R Eyebrow
+      parentName: Toucan Head
+      position: {x: -0.32941207, y: 0.15381585, z: -0.082710415}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Toucan R Lower Eyelid
+      parentName: Toucan Head
+      position: {x: -0.2091667, y: 0.10282827, z: -0.05933961}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Toucan R Mouth
+      parentName: Toucan Head
+      position: {x: -0.11873157, y: 0.11630369, z: -0.10557454}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Toucan R Upper Eyelid
+      parentName: Toucan Head
+      position: {x: -0.21403465, y: 0.09630893, z: -0.067252345}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toucan R Clavicle
+      parentName: Toucan Spine2
+      position: {x: -0.045281675, y: -0.0033550737, z: -0.01855038}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toucan R UpperArm
+      parentName: Toucan R Clavicle
+      position: {x: -0.071038954, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toucan R Forearm
+      parentName: Toucan R UpperArm
+      position: {x: -0.10235764, y: 0.0000000023841857, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Toucan R Hand
+      parentName: Toucan R Forearm
+      position: {x: -0.059193715, y: 0.0000000047683715, z: -0.000000038146972}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Toucan R Finger0
+      parentName: Toucan R Hand
+      position: {x: -0.10990876, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Toucan R Finger01
+      parentName: Toucan R Finger0
+      position: {x: -0.062028445, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Toucan Tail
+      parentName: Toucan Pelvis
+      position: {x: -0.041929748, y: -0.1072949, z: 0.0000003339524}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Toucan Tail1
+      parentName: Toucan Tail
+      position: {x: -0.17996605, y: -0.00014232635, z: -3.9479345e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toucan Tail2
+      parentName: Toucan Tail1
+      position: {x: -0.17999859, y: -0.0001346302, z: -3.7322023e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toucan Mesh
+      parentName: Toucan(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 10fc4dd541c0951409eb2f77cefaedf8,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

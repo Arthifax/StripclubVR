@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 64470b5d664d5174795f255f155f0781
+timeCreated: 1539630464
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Eye Left
+    100004: Eye Right
+    100006: Lemur Mesh
+    100008: Lemur
+    100010: Lemur Head
+    100012: Lemur Jaw
+    100014: Lemur L Calf
+    100016: Lemur L Clavicle
+    100018: Lemur L Ear
+    100020: Lemur L Ear02
+    100022: Lemur L Eyebrow
+    100024: Lemur L Finger0
+    100026: Lemur L Finger1
+    100028: Lemur L Foot
+    100030: Lemur L Forearm
+    100032: Lemur L Hand
+    100034: Lemur L Lower Eyelid
+    100036: Lemur L Mouth
+    100038: Lemur L Thigh
+    100040: Lemur L Toe0
+    100042: Lemur L Upper Eyelid
+    100044: Lemur L Upper Mouth
+    100046: Lemur L UpperArm
+    100048: Lemur Neck
+    100050: Lemur Pelvis
+    100052: Lemur R Calf
+    100054: Lemur R Clavicle
+    100056: Lemur R Ear
+    100058: Lemur R Ear02
+    100060: Lemur R Eyebrow
+    100062: Lemur R Finger0
+    100064: Lemur R Finger1
+    100066: Lemur R Foot
+    100068: Lemur R Forearm
+    100070: Lemur R Hand
+    100072: Lemur R Lower Eyelid
+    100074: Lemur R Mouth
+    100076: Lemur R Thigh
+    100078: Lemur R Toe0
+    100080: Lemur R Upper Eyelid
+    100082: Lemur R Upper Mouth
+    100084: Lemur R UpperArm
+    100086: Lemur Spine
+    100088: Lemur Spine1
+    100090: Lemur Spine2
+    100092: Lemur Tail
+    100094: Lemur Tail02
+    100096: Lemur Tail03
+    100098: Lemur Tail04
+    100100: Lemur Tail05
+    100102: Lemur Tongue
+    100104: Lemur Tongue02
+    100106: Lemur Tongue03
+    400000: //RootNode
+    400002: Eye Left
+    400004: Eye Right
+    400006: Lemur Mesh
+    400008: Lemur
+    400010: Lemur Head
+    400012: Lemur Jaw
+    400014: Lemur L Calf
+    400016: Lemur L Clavicle
+    400018: Lemur L Ear
+    400020: Lemur L Ear02
+    400022: Lemur L Eyebrow
+    400024: Lemur L Finger0
+    400026: Lemur L Finger1
+    400028: Lemur L Foot
+    400030: Lemur L Forearm
+    400032: Lemur L Hand
+    400034: Lemur L Lower Eyelid
+    400036: Lemur L Mouth
+    400038: Lemur L Thigh
+    400040: Lemur L Toe0
+    400042: Lemur L Upper Eyelid
+    400044: Lemur L Upper Mouth
+    400046: Lemur L UpperArm
+    400048: Lemur Neck
+    400050: Lemur Pelvis
+    400052: Lemur R Calf
+    400054: Lemur R Clavicle
+    400056: Lemur R Ear
+    400058: Lemur R Ear02
+    400060: Lemur R Eyebrow
+    400062: Lemur R Finger0
+    400064: Lemur R Finger1
+    400066: Lemur R Foot
+    400068: Lemur R Forearm
+    400070: Lemur R Hand
+    400072: Lemur R Lower Eyelid
+    400074: Lemur R Mouth
+    400076: Lemur R Thigh
+    400078: Lemur R Toe0
+    400080: Lemur R Upper Eyelid
+    400082: Lemur R Upper Mouth
+    400084: Lemur R UpperArm
+    400086: Lemur Spine
+    400088: Lemur Spine1
+    400090: Lemur Spine2
+    400092: Lemur Tail
+    400094: Lemur Tail02
+    400096: Lemur Tail03
+    400098: Lemur Tail04
+    400100: Lemur Tail05
+    400102: Lemur Tongue
+    400104: Lemur Tongue02
+    400106: Lemur Tongue03
+    2100000: Lemur
+    2300000: //RootNode
+    2300002: Eye Left
+    2300004: Eye Right
+    2300006: Lemur Mesh
+    3300000: //RootNode
+    3300002: Eye Left
+    3300004: Eye Right
+    3300006: Lemur Mesh
+    4300000: Lemur Mesh
+    4300002: Eye Right
+    4300004: Eye Left
+    9500000: //RootNode
+    13700000: Lemur Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye Shine
+    second: {fileID: 2100000, guid: e1535bb2ec995454e8aab87cbc3d4e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: b2008cb910400764087e15f39d492802, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lemur
+    second: {fileID: 2100000, guid: c6d11a7a7c262634f942b242f4701f39, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Lemur Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lemur Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Lemur(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000046790103, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lemur
+      parentName: Lemur(Clone)
+      position: {x: -0, y: 0.24801268, z: -0.000000006500851}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Lemur Pelvis
+      parentName: Lemur
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lemur L Thigh
+      parentName: Lemur Pelvis
+      position: {x: 0.000000114440915, y: 0.00000012346558, z: 0.08121185}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: Lemur L Calf
+      parentName: Lemur L Thigh
+      position: {x: -0.110368565, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Lemur L Foot
+      parentName: Lemur L Calf
+      position: {x: -0.11036856, y: -0.0000000023841857, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999995, y: 0.9999992, z: 0.9999996}
+    - name: Lemur L Toe0
+      parentName: Lemur L Foot
+      position: {x: -0.025384761, y: 0.07738081, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000007, y: 0.99999994, z: 1.0000005}
+    - name: Lemur R Thigh
+      parentName: Lemur Pelvis
+      position: {x: -0.000000114440915, y: -0.000000101783634, z: -0.08121185}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000007}
+    - name: Lemur R Calf
+      parentName: Lemur R Thigh
+      position: {x: -0.11036856, y: -5.9604643e-10, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+    - name: Lemur R Foot
+      parentName: Lemur R Calf
+      position: {x: -0.11036856, y: -0.0000000023841857, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000001}
+    - name: Lemur R Toe0
+      parentName: Lemur R Foot
+      position: {x: -0.025384761, y: 0.07738082, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000013, y: 1.0000001, z: 1.000001}
+    - name: Lemur Spine
+      parentName: Lemur Pelvis
+      position: {x: -0.04110304, y: -0.00008988713, z: 0.00000005712638}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Lemur Spine1
+      parentName: Lemur Spine
+      position: {x: -0.11290048, y: -0.00008989978, z: -2.49346e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Lemur Spine2
+      parentName: Lemur Spine1
+      position: {x: -0.1129005, y: -0.00008989978, z: -2.4934613e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999999}
+    - name: Lemur L Clavicle
+      parentName: Lemur Spine2
+      position: {x: -0.08627109, y: 0.000021145604, z: 0.018749049}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1.0000004, y: 1.0000013, z: 1.0000011}
+    - name: Lemur L UpperArm
+      parentName: Lemur L Clavicle
+      position: {x: -0.08722813, y: -1.4901161e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: Lemur L Forearm
+      parentName: Lemur L UpperArm
+      position: {x: -0.11967407, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: Lemur L Hand
+      parentName: Lemur L Forearm
+      position: {x: -0.119674124, y: -0.0000000023841857, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 0.9999999, y: 1.0000006, z: 1.0000007}
+    - name: Lemur L Finger0
+      parentName: Lemur L Hand
+      position: {x: -0.029712591, y: -0.000056762696, z: -0.01883029}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.000001}
+    - name: Lemur L Finger1
+      parentName: Lemur L Hand
+      position: {x: -0.042165287, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+    - name: Lemur Neck
+      parentName: Lemur Spine2
+      position: {x: -0.112900466, y: -0.000042409636, z: -1.1762737e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Lemur Head
+      parentName: Lemur Neck
+      position: {x: -0.053260114, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999964}
+    - name: Eye Left
+      parentName: Lemur Head
+      position: {x: -0.2566928, y: 0.1315969, z: -0.08245982}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0279436, y: 1.0279437, z: 1.0279437}
+    - name: Eye Right
+      parentName: Lemur Head
+      position: {x: -0.2566929, y: 0.13159667, z: 0.08246161}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0279435, y: 1.0279435, z: 1.0279437}
+    - name: Lemur Jaw
+      parentName: Lemur Head
+      position: {x: -0.15581542, y: 0.05293245, z: 0.000000072085165}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Lemur Tongue
+      parentName: Lemur Jaw
+      position: {x: -0.05684635, y: 0.0022212218, z: -0.000000058895964}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.99999946, z: 0.9999999}
+    - name: Lemur Tongue02
+      parentName: Lemur Tongue
+      position: {x: -0.051073864, y: -0.000040588377, z: -1.1277734e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lemur Tongue03
+      parentName: Lemur Tongue02
+      position: {x: -0.051073845, y: -0.000040740964, z: -1.1277734e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Lemur L Ear
+      parentName: Lemur Head
+      position: {x: -0.26119414, y: -0.14962198, z: 0.19542268}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000014}
+    - name: Lemur L Ear02
+      parentName: Lemur L Ear
+      position: {x: -0.11170517, y: -0.00008880615, z: -0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: Lemur L Eyebrow
+      parentName: Lemur Head
+      position: {x: -0.39661467, y: 0.19443089, z: 0.06774997}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.0000008}
+    - name: Lemur L Lower Eyelid
+      parentName: Lemur Head
+      position: {x: -0.24939224, y: 0.123309515, z: 0.08284856}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.99999994}
+    - name: Lemur L Mouth
+      parentName: Lemur Head
+      position: {x: -0.14053223, y: 0.13741584, z: 0.12716442}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: Lemur L Upper Eyelid
+      parentName: Lemur Head
+      position: {x: -0.2590312, y: 0.13088433, z: 0.08723573}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000005}
+    - name: Lemur L Upper Mouth
+      parentName: Lemur Head
+      position: {x: -0.113217466, y: 0.26625365, z: 0.06168329}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000013}
+    - name: Lemur R Ear
+      parentName: Lemur Head
+      position: {x: -0.26119414, y: -0.14962089, z: -0.19542354}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000006}
+    - name: Lemur R Ear02
+      parentName: Lemur R Ear
+      position: {x: -0.11170517, y: -0.000088825225, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000001}
+    - name: Lemur R Eyebrow
+      parentName: Lemur Head
+      position: {x: -0.39661467, y: 0.19443126, z: -0.067748874}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000011, y: 1.0000013, z: 1.0000006}
+    - name: Lemur R Lower Eyelid
+      parentName: Lemur Head
+      position: {x: -0.24939232, y: 0.123309955, z: -0.08284787}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.0000012}
+    - name: Lemur R Mouth
+      parentName: Lemur Head
+      position: {x: -0.14053223, y: 0.13741656, z: -0.12716363}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 0.99999994}
+    - name: Lemur R Upper Eyelid
+      parentName: Lemur Head
+      position: {x: -0.25903076, y: 0.13088326, z: -0.08723441}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000013, y: 1.0000013, z: 1.0000006}
+    - name: Lemur R Upper Mouth
+      parentName: Lemur Head
+      position: {x: -0.113217466, y: 0.266254, z: -0.061681814}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000006, z: 0.99999976}
+    - name: Lemur R Clavicle
+      parentName: Lemur Spine2
+      position: {x: -0.08627109, y: 0.000021249614, z: -0.018749049}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000014, y: 1.0000014, z: 1.0000011}
+    - name: Lemur R UpperArm
+      parentName: Lemur R Clavicle
+      position: {x: -0.087228104, y: -4.4703483e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000018, y: 1.0000007, z: 1.0000006}
+    - name: Lemur R Forearm
+      parentName: Lemur R UpperArm
+      position: {x: -0.11967411, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.000001}
+    - name: Lemur R Hand
+      parentName: Lemur R Forearm
+      position: {x: -0.11967411, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: Lemur R Finger0
+      parentName: Lemur R Hand
+      position: {x: -0.0297126, y: -0.000056838988, z: 0.01883029}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 1.000001, y: 1.000001, z: 1}
+    - name: Lemur R Finger1
+      parentName: Lemur R Hand
+      position: {x: -0.042165298, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 0.99999994}
+    - name: Lemur Tail
+      parentName: Lemur Pelvis
+      position: {x: -0.004, y: -0.086, z: 0.001}
+      rotation: {x: -0.5006096, y: -0.48823762, z: -0.49939117, w: -0.5114906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lemur Tail02
+      parentName: Lemur Tail
+      position: {x: -0.23112363, y: -0.00018352509, z: -5.094625e-10}
+      rotation: {x: 0.000000005122274, y: 0.00000011920929, z: -0.037097484, w: 0.9993117}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: Lemur Tail03
+      parentName: Lemur Tail02
+      position: {x: -0.23112358, y: -0.00018352509, z: -5.077891e-10}
+      rotation: {x: 0.0000000039615093, y: 3.9030112e-11, z: -0.03709749, w: 0.9993117}
+      scale: {x: 1.0000005, y: 1, z: 1.0000001}
+    - name: Lemur Tail04
+      parentName: Lemur Tail03
+      position: {x: -0.231063, y: -0.00017787932, z: -4.973117e-10}
+      rotation: {x: -0.0000000029837528, y: -0.00000027879628, z: 0.12861803, w: 0.9916943}
+      scale: {x: 1.0000012, y: 0.9999998, z: 1.0000012}
+    - name: Lemur Tail05
+      parentName: Lemur Tail04
+      position: {x: -0.23107825, y: -0.00012966155, z: -3.5928677e-10}
+      rotation: {x: 0.00000005031281, y: -0.0000003811828, z: 0.120086856, w: 0.99276346}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Lemur Mesh
+      parentName: Lemur(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Frog All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Frog
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog L Thigh
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog L Thigh/Frog L Calf
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog L Thigh/Frog L Calf/Frog L Foot
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog L Thigh/Frog L Calf/Frog L Foot/Frog L Toe0
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog R Thigh
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog R Thigh/Frog R Calf
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog R Thigh/Frog R Calf/Frog R Foot
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog R Thigh/Frog R Calf/Frog R Foot/Frog R Toe0
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger0
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger0/Frog L Finger01
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger1
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger1/Frog L Finger11
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger2
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger2/Frog L Finger21
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger3
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog L Clavicle/Frog
+      L UpperArm/Frog L Forearm/Frog L Hand/Frog L Finger3/Frog L Finger31
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Eye
+      Left
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Eye
+      Right
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      Jaw
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      Jaw/Frog L Lower Mouth
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      Jaw/Frog R Lower Mouth
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      Jaw/Frog Tongue
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      Jaw/Frog Tongue/Frog Tongue02
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      Jaw/Frog Tongue/Frog Tongue02/Frog Tongue03
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      L Mouth
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      L Upper Mouth
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      R Mouth
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog Neck/Frog Head/Frog
+      R Upper Mouth
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger0
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger0/Frog R Finger01
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger1
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger1/Frog R Finger11
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger2
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger2/Frog R Finger21
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger3
+    m_Weight: 1
+  - m_Path: Frog/Frog Pelvis/Frog Spine/Frog Spine1/Frog Spine2/Frog R Clavicle/Frog
+      R UpperArm/Frog R Forearm/Frog R Hand/Frog R Finger3/Frog R Finger31
+    m_Weight: 1
+  - m_Path: Frog Mesh
+    m_Weight: 1

@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gorilla All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Gorilla
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla L Thigh
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla L Thigh/Gorilla L Calf
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla L Thigh/Gorilla L Calf/Gorilla L Foot
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla L Thigh/Gorilla L Calf/Gorilla L Foot/Gorilla
+      L Toe0
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla R Thigh
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla R Thigh/Gorilla R Calf
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla R Thigh/Gorilla R Calf/Gorilla R Foot
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla R Thigh/Gorilla R Calf/Gorilla R Foot/Gorilla
+      R Toe0
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      L Clavicle
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      L Clavicle/Gorilla L UpperArm
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      L Clavicle/Gorilla L UpperArm/Gorilla L Forearm
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      L Clavicle/Gorilla L UpperArm/Gorilla L Forearm/Gorilla L Hand
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      L Clavicle/Gorilla L UpperArm/Gorilla L Forearm/Gorilla L Hand/Gorilla L Finger0
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      L Clavicle/Gorilla L UpperArm/Gorilla L Forearm/Gorilla L Hand/Gorilla L Finger1
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Eye Left
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Eye Right
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla Jaw
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla Jaw/Gorilla L Lower Mouth
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla Jaw/Gorilla R Lower Mouth
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla Jaw/Gorilla Tongue
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla Jaw/Gorilla Tongue/Gorilla Tongue02
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla Jaw/Gorilla Tongue/Gorilla Tongue02/Gorilla Tongue03
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla L Ear
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla L Eyebrow
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla L Mouth
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla L Upper Lip
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla R Ear
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla R Eyebrow
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla R Mouth
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      Neck/Gorilla Head/Gorilla R Upper Lip
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      R Clavicle
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      R Clavicle/Gorilla R UpperArm
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      R Clavicle/Gorilla R UpperArm/Gorilla R Forearm
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      R Clavicle/Gorilla R UpperArm/Gorilla R Forearm/Gorilla R Hand
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      R Clavicle/Gorilla R UpperArm/Gorilla R Forearm/Gorilla R Hand/Gorilla R Finger0
+    m_Weight: 1
+  - m_Path: Gorilla/Gorilla Pelvis/Gorilla Spine/Gorilla Spine1/Gorilla Spine2/Gorilla
+      R Clavicle/Gorilla R UpperArm/Gorilla R Forearm/Gorilla R Hand/Gorilla R Finger1
+    m_Weight: 1
+  - m_Path: Gorilla Mesh
+    m_Weight: 1

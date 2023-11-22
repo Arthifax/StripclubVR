@@ -1,0 +1,1334 @@
+fileFormatVersion: 2
+guid: 4a32dcb462e9b2d4f9ff1b3878d5aa00
+timeCreated: 1531168222
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Eye Left
+    100002: Eye Right
+    100004: Monkey
+    100006: Monkey C Lower Lip
+    100008: Monkey Head
+    100010: Monkey Jaw
+    100012: //RootNode
+    100014: Monkey L Calf
+    100016: Monkey L Clavicle
+    100018: Monkey L Ear
+    100020: Monkey L Eyebrow
+    100022: Monkey L Finger0
+    100024: Monkey L Finger1
+    100026: Monkey L Foot
+    100028: Monkey L Forearm
+    100030: Monkey L Hair
+    100032: Monkey L Hand
+    100034: Monkey L Lower Eyelid
+    100036: Monkey L Lower Lip
+    100038: Monkey L Thigh
+    100040: Monkey L Toe0
+    100042: Monkey L Upper Eyelid
+    100044: Monkey L Upper Lip
+    100046: Monkey L UpperArm
+    100048: Monkey LC Upper Lip
+    100050: Monkey Neck
+    100052: Monkey Nose
+    100054: Monkey Pelvis
+    100056: Monkey R Calf
+    100058: Monkey R Clavicle
+    100060: Monkey R Ear
+    100062: Monkey R Eyebrow
+    100064: Monkey R Finger0
+    100066: Monkey R Finger1
+    100068: Monkey R Foot
+    100070: Monkey R Forearm
+    100072: Monkey R Hair
+    100074: Monkey R Hand
+    100076: Monkey R Lower Eyelid
+    100078: Monkey R Lower Lip
+    100080: Monkey R Thigh
+    100082: Monkey R Toe0
+    100084: Monkey R Upper Eyelid
+    100086: Monkey R Upper Lip
+    100088: Monkey R UpperArm
+    100090: Monkey RC Upper Lip
+    100092: Monkey Spine
+    100094: Monkey Spine1
+    100096: Monkey Spine2
+    100098: Monkey Tail
+    100100: Monkey Tail02
+    100102: Monkey Tail03
+    100104: Monkey Tail04
+    100106: Monkey Tail05
+    100108: Monkey Tail06
+    100110: Monkey Tail07
+    100112: Monkey Tail08
+    100114: Monkey Tongue
+    100116: Monkey Tongue02
+    100118: Monkey Tongue03
+    100120: Monkey Top Hair
+    400000: Eye Left
+    400002: Eye Right
+    400004: Monkey
+    400006: Monkey C Lower Lip
+    400008: Monkey Head
+    400010: Monkey Jaw
+    400012: //RootNode
+    400014: Monkey L Calf
+    400016: Monkey L Clavicle
+    400018: Monkey L Ear
+    400020: Monkey L Eyebrow
+    400022: Monkey L Finger0
+    400024: Monkey L Finger1
+    400026: Monkey L Foot
+    400028: Monkey L Forearm
+    400030: Monkey L Hair
+    400032: Monkey L Hand
+    400034: Monkey L Lower Eyelid
+    400036: Monkey L Lower Lip
+    400038: Monkey L Thigh
+    400040: Monkey L Toe0
+    400042: Monkey L Upper Eyelid
+    400044: Monkey L Upper Lip
+    400046: Monkey L UpperArm
+    400048: Monkey LC Upper Lip
+    400050: Monkey Neck
+    400052: Monkey Nose
+    400054: Monkey Pelvis
+    400056: Monkey R Calf
+    400058: Monkey R Clavicle
+    400060: Monkey R Ear
+    400062: Monkey R Eyebrow
+    400064: Monkey R Finger0
+    400066: Monkey R Finger1
+    400068: Monkey R Foot
+    400070: Monkey R Forearm
+    400072: Monkey R Hair
+    400074: Monkey R Hand
+    400076: Monkey R Lower Eyelid
+    400078: Monkey R Lower Lip
+    400080: Monkey R Thigh
+    400082: Monkey R Toe0
+    400084: Monkey R Upper Eyelid
+    400086: Monkey R Upper Lip
+    400088: Monkey R UpperArm
+    400090: Monkey RC Upper Lip
+    400092: Monkey Spine
+    400094: Monkey Spine1
+    400096: Monkey Spine2
+    400098: Monkey Tail
+    400100: Monkey Tail02
+    400102: Monkey Tail03
+    400104: Monkey Tail04
+    400106: Monkey Tail05
+    400108: Monkey Tail06
+    400110: Monkey Tail07
+    400112: Monkey Tail08
+    400114: Monkey Tongue
+    400116: Monkey Tongue02
+    400118: Monkey Tongue03
+    400120: Monkey Top Hair
+    2100000: Eyes
+    2100002: Eye Shine
+    2300000: Eye Left
+    2300002: Eye Right
+    3300000: Eye Left
+    3300002: Eye Right
+    4300000: Eye Left
+    4300002: Eye Right
+    7400000: Monkey Jump Up
+    7400002: Monkey Fall
+    7400004: Monkey Land
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Monkey Jump Up
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Monkey Pelvis
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot/Monkey
+          L Toe0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot/Monkey
+          R Toe0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Eye Left
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Eye Right
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey C Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey L Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey R Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02/Monkey Tongue03
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Ear
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Eyebrow
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Lower Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Upper Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey LC Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Nose
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Ear
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Eyebrow
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Lower Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Upper Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey RC Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Top Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06/Monkey Tail07
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06/Monkey Tail07/Monkey Tail08
+        weight: 1
+      - path: Monkey Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8cfb630b17346f44a8fd1ddaa825dd0c, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Monkey Fall
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Monkey Pelvis
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot/Monkey
+          L Toe0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot/Monkey
+          R Toe0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Eye Left
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Eye Right
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey C Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey L Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey R Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02/Monkey Tongue03
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Ear
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Eyebrow
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Lower Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Upper Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey LC Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Nose
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Ear
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Eyebrow
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Lower Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Upper Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey RC Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Top Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06/Monkey Tail07
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06/Monkey Tail07/Monkey Tail08
+        weight: 1
+      - path: Monkey Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8cfb630b17346f44a8fd1ddaa825dd0c, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Monkey Land
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Monkey Pelvis
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot/Monkey
+          L Toe0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot/Monkey
+          R Toe0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          L Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Eye Left
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Eye Right
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey C Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey L Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey R Lower Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02/Monkey Tongue03
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Ear
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Eyebrow
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Lower Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Upper Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey L Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey LC Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Nose
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Ear
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Eyebrow
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Lower Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Upper Eyelid
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey R Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey RC Upper Lip
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          Neck/Monkey Head/Monkey Top Hair
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger0
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey
+          R Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger1
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06/Monkey Tail07
+        weight: 1
+      - path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey
+          Tail04/Monkey Tail05/Monkey Tail06/Monkey Tail07/Monkey Tail08
+        weight: 1
+      - path: Monkey Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 8cfb630b17346f44a8fd1ddaa825dd0c, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Monkey Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkey L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Monkey(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey
+      parentName: Monkey(Clone)
+      position: {x: -0.000000006960908, y: 0.2981693, z: -0.03453573}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Monkey Pelvis
+      parentName: Monkey
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.4999993, w: 0.5000007}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Monkey L Thigh
+      parentName: Monkey Pelvis
+      position: {x: 0.000000114440915, y: 0.0000001335144, z: 0.08721904}
+      rotation: {x: 0.0029203203, y: 0.9991555, z: 0.0018480974, w: 0.04094308}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Monkey L Calf
+      parentName: Monkey L Thigh
+      position: {x: -0.1528512, y: 0.0000000047683715, z: -0.000000009536743}
+      rotation: {x: 4.4028667e-10, y: 0.0000000038146157, z: 0.12969974, w: 0.9915533}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Monkey L Foot
+      parentName: Monkey L Calf
+      position: {x: -0.09242805, y: 0.0000000047683715, z: 0}
+      rotation: {x: -0.042805925, y: 0.048062075, z: -0.10876953, w: 0.9919813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey L Toe0
+      parentName: Monkey L Foot
+      position: {x: -0.04948555, y: 0.11386754, z: 0}
+      rotation: {x: -0.000000012644901, y: 0.000000018298348, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Monkey R Thigh
+      parentName: Monkey Pelvis
+      position: {x: -0.000000114440915, y: -0.00000010967254, z: -0.08721904}
+      rotation: {x: 0.002920374, y: 0.99915546, z: -0.0018494873, w: -0.040944558}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Monkey R Calf
+      parentName: Monkey R Thigh
+      position: {x: -0.15285121, y: 0.0000000023841857, z: 0}
+      rotation: {x: -0.0000000013637425, y: -0.000000003935408, z: 0.12969972, w: 0.9915533}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Monkey R Foot
+      parentName: Monkey R Calf
+      position: {x: -0.092428066, y: 0, z: 0}
+      rotation: {x: 0.042805914, y: -0.048062153, z: -0.1087695, w: 0.99198127}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Monkey R Toe0
+      parentName: Monkey R Foot
+      position: {x: -0.04948555, y: 0.113867536, z: 0}
+      rotation: {x: 0.000000017905974, y: -0.000000013036969, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Monkey Spine
+      parentName: Monkey Pelvis
+      position: {x: -0.040182915, y: -0.00007513285, z: 0.000000055829876}
+      rotation: {x: -0.000002080476, y: 0.000000693676, z: -0.000398159, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Monkey Spine1
+      parentName: Monkey Spine
+      position: {x: -0.09436298, y: -0.00007452965, z: -2.0671449e-10}
+      rotation: {x: -7.8505446e-14, y: -0.00000017725012, z: 0.06390615, w: 0.9979559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Spine2
+      parentName: Monkey Spine1
+      position: {x: -0.09437248, y: -0.00007515192, z: -2.0843799e-10}
+      rotation: {x: -4.0856207e-14, y: -3.0440247e-22, z: 0.000000007450581, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey L Clavicle
+      parentName: Monkey Spine2
+      position: {x: -0.07544422, y: 0.0000150489805, z: -0.0011301447}
+      rotation: {x: -0.6834294, y: -0.11875028, z: 0.7115526, w: 0.11187305}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Monkey L UpperArm
+      parentName: Monkey L Clavicle
+      position: {x: -0.092748865, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.146423, y: 0.01872986, z: 0.15514262, w: 0.9768011}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Monkey L Forearm
+      parentName: Monkey L UpperArm
+      position: {x: -0.20675646, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.0019326652, y: 0.01659476, z: 0.036985792, w: 0.99917614}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Monkey L Hand
+      parentName: Monkey L Forearm
+      position: {x: -0.232171, y: 0.000000009536743, z: 0}
+      rotation: {x: -0.7068252, y: 9.874234e-10, z: -9.8821e-10, w: 0.7073882}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Monkey L Finger0
+      parentName: Monkey L Hand
+      position: {x: -0.036873683, y: 0.010836944, z: -0.05552677}
+      rotation: {x: 0.16930258, y: -0.15317199, z: -0.1303524, w: 0.96482295}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Monkey L Finger1
+      parentName: Monkey L Hand
+      position: {x: -0.09819035, y: 0.0076886364, z: 0.0017241477}
+      rotation: {x: -0.00037372278, y: -0.00013735575, z: -0.34497365, w: 0.9386123}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Monkey Neck
+      parentName: Monkey Spine2
+      position: {x: -0.09439804, y: -0.000051422117, z: -1.4261786e-10}
+      rotation: {x: -8.151862e-14, y: 0.00000063174167, z: -0.22776954, w: 0.9737151}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Head
+      parentName: Monkey Neck
+      position: {x: -0.10730812, y: 0.010256939, z: 0.000000013911267}
+      rotation: {x: -3.3843417e-13, y: -0.00000045894822, z: 0.16547088, w: 0.9862147}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Eye Left
+      parentName: Monkey Head
+      position: {x: -0.17288032, y: 0.15931049, z: -0.092169635}
+      rotation: {x: -0.6916913, y: 0.04011323, z: 0.70719296, w: -0.14082739}
+      scale: {x: 0.8892047, y: 0.8892046, z: 0.8892044}
+    - name: Eye Right
+      parentName: Monkey Head
+      position: {x: -0.17288032, y: 0.15931022, z: 0.09216956}
+      rotation: {x: 0.7056953, y: 0.08563407, z: -0.703134, w: 0.016235173}
+      scale: {x: 0.8892049, y: 0.88920504, z: 0.8892045}
+    - name: Monkey Jaw
+      parentName: Monkey Head
+      position: {x: -0.10546783, y: 0.07447715, z: 0.00000010141772}
+      rotation: {x: -1.8094357e-12, y: -0.0000025740626, z: 0.92805856, w: -0.37243423}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Monkey C Lower Lip
+      parentName: Monkey Jaw
+      position: {x: -0.20836806, y: -0.0543618, z: -0.00000041377032}
+      rotation: {x: 2.0019537e-14, y: 0.0000010380786, z: -0.37427118, w: 0.92731935}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Monkey L Lower Lip
+      parentName: Monkey Jaw
+      position: {x: -0.15281242, y: 0.000074653624, z: 0.10077889}
+      rotation: {x: -0.3560971, y: 0.16598997, z: -0.4558982, w: 0.79862326}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.99999976}
+    - name: Monkey R Lower Lip
+      parentName: Monkey Jaw
+      position: {x: -0.15281242, y: 0.00007522583, z: -0.1007789}
+      rotation: {x: 0.3560971, y: -0.16598742, z: -0.45589912, w: 0.79862326}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999997}
+    - name: Monkey Tongue
+      parentName: Monkey Jaw
+      position: {x: -0.047484282, y: 0.055566214, z: 0.00000016427774}
+      rotation: {x: 9.840886e-14, y: -0.0000010871502, z: 0.39196348, w: 0.91998076}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+    - name: Monkey Tongue02
+      parentName: Monkey Tongue
+      position: {x: -0.07361496, y: -0.000056915283, z: -1.580338e-10}
+      rotation: {x: 2.6271542e-14, y: 0.00000033463937, z: -0.12065159, w: 0.9926949}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Monkey Tongue03
+      parentName: Monkey Tongue02
+      position: {x: -0.07360098, y: -0.000039978026, z: -1.1074007e-10}
+      rotation: {x: 1.13686824e-13, y: 5.6843412e-14, z: -6.462347e-27, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Monkey L Ear
+      parentName: Monkey Head
+      position: {x: -0.14919242, y: -0.053110197, z: 0.19990069}
+      rotation: {x: 0.27889514, y: 0.567736, z: 0.2669157, w: 0.7270827}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Monkey L Eyebrow
+      parentName: Monkey Head
+      position: {x: -0.26627555, y: 0.26005957, z: 0.06281555}
+      rotation: {x: -0.37692383, y: 0.33643997, z: 0.59041923, w: 0.62939787}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Monkey L Hair
+      parentName: Monkey Head
+      position: {x: -0.10869255, y: 0.045010906, z: 0.06880387}
+      rotation: {x: -0.15771388, y: 0.619875, z: 0.62222636, w: 0.45134872}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Monkey L Lower Eyelid
+      parentName: Monkey Head
+      position: {x: -0.1718116, y: 0.15579674, z: 0.10323729}
+      rotation: {x: 0.059304625, y: 0.07977915, z: -0.8273864, w: 0.5527659}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Monkey L Upper Eyelid
+      parentName: Monkey Head
+      position: {x: -0.17390807, y: 0.15460937, z: 0.096237764}
+      rotation: {x: 0.10120731, y: 0.05939402, z: -0.5303032, w: 0.83964753}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Monkey L Upper Lip
+      parentName: Monkey Head
+      position: {x: -0.047935713, y: 0.19871461, z: 0.14680144}
+      rotation: {x: 0.45269433, y: 0.00017992151, z: -0.00035562302, w: 0.8916657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey LC Upper Lip
+      parentName: Monkey Head
+      position: {x: -0.05218155, y: 0.31027332, z: 0.06298177}
+      rotation: {x: 0.3333316, y: 0.00013248161, z: -0.00037602094, w: 0.9428096}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Monkey Nose
+      parentName: Monkey Head
+      position: {x: -0.10356567, y: 0.2644467, z: 0.00000037184432}
+      rotation: {x: 8.1237366e-13, y: 0.0000012722461, z: -0.45869902, w: 0.8885917}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Monkey R Ear
+      parentName: Monkey Head
+      position: {x: -0.14919242, y: -0.053109083, z: -0.19990097}
+      rotation: {x: -0.27889514, y: -0.5677375, z: 0.26691255, w: 0.7270827}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: Monkey R Eyebrow
+      parentName: Monkey Head
+      position: {x: -0.26627555, y: 0.26005995, z: -0.06281412}
+      rotation: {x: 0.37692383, y: -0.33644325, z: 0.5904174, w: 0.62939787}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Monkey R Hair
+      parentName: Monkey Head
+      position: {x: -0.10869255, y: 0.045011267, z: -0.06880361}
+      rotation: {x: 0.15771408, y: -0.61987865, z: 0.6222228, w: 0.45134863}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Monkey R Lower Eyelid
+      parentName: Monkey Head
+      position: {x: -0.1718116, y: 0.15579733, z: -0.103236444}
+      rotation: {x: -0.059304576, y: -0.07977448, z: -0.8273868, w: 0.55276585}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: Monkey R Upper Eyelid
+      parentName: Monkey Head
+      position: {x: -0.17390807, y: 0.15460989, z: -0.09623691}
+      rotation: {x: -0.10120729, y: -0.05939107, z: -0.5303035, w: 0.83964753}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Monkey R Upper Lip
+      parentName: Monkey Head
+      position: {x: -0.047935713, y: 0.19871545, z: -0.14680034}
+      rotation: {x: -0.4526943, y: -0.00017991953, z: -0.00035562404, w: 0.8916657}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Monkey RC Upper Lip
+      parentName: Monkey Head
+      position: {x: -0.05218155, y: 0.3102737, z: -0.062980056}
+      rotation: {x: -0.3333316, y: -0.00013247954, z: -0.00037602164, w: 0.9428096}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Monkey Top Hair
+      parentName: Monkey Head
+      position: {x: -0.32168463, y: 0.051821716, z: -0.008550807}
+      rotation: {x: -0.6899659, y: -0.04648179, z: -0.048554514, w: 0.7207142}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Monkey R Clavicle
+      parentName: Monkey Spine2
+      position: {x: -0.07544422, y: 0.000015044212, z: 0.0011301447}
+      rotation: {x: 0.6834294, y: 0.1187486, z: 0.7115531, w: 0.111871354}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Monkey R UpperArm
+      parentName: Monkey R Clavicle
+      position: {x: -0.092748865, y: 0.0000000047683715, z: -0.000000038146972}
+      rotation: {x: -0.14642294, y: -0.018729053, z: 0.15514293, w: 0.97680104}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Monkey R Forearm
+      parentName: Monkey R UpperArm
+      position: {x: -0.20675647, y: 0, z: 0}
+      rotation: {x: 0.0019324869, y: -0.01659476, z: 0.036985815, w: 0.9991762}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Monkey R Hand
+      parentName: Monkey R Forearm
+      position: {x: -0.23217101, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.7068252, y: 0.000000012186612, z: -0.0000000088854994, w: 0.7073882}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Monkey R Finger0
+      parentName: Monkey R Hand
+      position: {x: -0.036873702, y: 0.010836982, z: 0.055526778}
+      rotation: {x: -0.16930261, y: 0.15317196, z: -0.13035235, w: 0.9648229}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Monkey R Finger1
+      parentName: Monkey R Hand
+      position: {x: -0.098190345, y: 0.0076886364, z: -0.0017241572}
+      rotation: {x: 0.00038760682, y: 0.00009107457, z: -0.22874096, w: 0.97348726}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Monkey Tail
+      parentName: Monkey Pelvis
+      position: {x: 0.008223629, y: -0.07039227, z: 0.00000020197665}
+      rotation: {x: -0.0000009813966, y: 3.904784e-10, z: 0.7068252, w: 0.7073882}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Monkey Tail02
+      parentName: Monkey Tail
+      position: {x: -0.22470233, y: -0.00017889023, z: -4.962203e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Tail03
+      parentName: Monkey Tail02
+      position: {x: -0.2247023, y: -0.00017894745, z: -4.9651133e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Tail04
+      parentName: Monkey Tail03
+      position: {x: -0.22470233, y: -0.0001789093, z: -4.961475e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Tail05
+      parentName: Monkey Tail04
+      position: {x: -0.2247023, y: -0.00017894745, z: -4.9643856e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Tail06
+      parentName: Monkey Tail05
+      position: {x: -0.22470237, y: -0.0001789093, z: -4.960748e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Tail07
+      parentName: Monkey Tail06
+      position: {x: -0.22470245, y: -0.00017892837, z: -4.9629306e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Tail08
+      parentName: Monkey Tail07
+      position: {x: -0.2247023, y: -0.0001789093, z: -4.9643856e-10}
+      rotation: {x: 0, y: -2.4202862e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkey Mesh
+      parentName: Monkey(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8ec234b03577ae048b3921006c2e01de,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

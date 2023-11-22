@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: f0331ef69c5653b4e8819af81063154e
+timeCreated: 1542399065
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base1
+    100004: Base2
+    100006: Base3
+    100008: Center_Pillar
+    100010: H_B
+    100012: H_Cyl
+    100014: H_T
+    100016: Knob
+    100018: Metal_Back
+    100020: Metal_Front
+    100022: Supports
+    100024: Supports 1
+    100026: //RootNode
+    100028: Table_Top
+    100030: Center_Box
+    100032: SupportL
+    100034: SupportM
+    100036: SupportR
+    400000: Base
+    400002: Base1
+    400004: Base2
+    400006: Base3
+    400008: Center_Pillar
+    400010: H_B
+    400012: H_Cyl
+    400014: H_T
+    400016: Knob
+    400018: Metal_Back
+    400020: Metal_Front
+    400022: Supports
+    400024: Supports 1
+    400026: //RootNode
+    400028: Table_Top
+    400030: Center_Box
+    400032: SupportL
+    400034: SupportM
+    400036: SupportR
+    2100000: Table_MAT_SR
+    2300000: Base1
+    2300002: Base2
+    2300004: Base3
+    2300006: Center_Pillar
+    2300008: H_B
+    2300010: H_Cyl
+    2300012: H_T
+    2300014: Knob
+    2300016: Metal_Front
+    2300018: Supports 1
+    2300020: Table_Top
+    2300022: Center_Box
+    2300024: SupportL
+    2300026: SupportM
+    2300028: SupportR
+    3300000: Base1
+    3300002: Base2
+    3300004: Base3
+    3300006: Center_Pillar
+    3300008: H_B
+    3300010: H_Cyl
+    3300012: H_T
+    3300014: Knob
+    3300016: Metal_Front
+    3300018: Supports 1
+    3300020: Table_Top
+    3300022: Center_Box
+    3300024: SupportL
+    3300026: SupportM
+    3300028: SupportR
+    4300000: Table_Top
+    4300002: Supports
+    4300004: H_T
+    4300006: Knob
+    4300008: Center_Pillar
+    4300010: Metal_Front
+    4300012: H_Cyl
+    4300014: H_B
+    4300016: Base1
+    4300018: Base2
+    4300020: Base3
+    4300022: SupportR
+    4300024: SupportL
+    4300026: SupportM
+    4300028: Center_Box
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mandrill All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Mandrill
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill L Thigh
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill L Thigh/Mandrill L Calf
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill L Thigh/Mandrill L Calf/Mandrill L Foot
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill L Thigh/Mandrill L Calf/Mandrill L Foot/Mandrill
+      L Toe0
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill R Thigh
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill R Thigh/Mandrill R Calf
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill R Thigh/Mandrill R Calf/Mandrill R Foot
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill R Thigh/Mandrill R Calf/Mandrill R Foot/Mandrill
+      R Toe0
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger0
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger0/Mandrill L Finger01
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger1
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger1/Mandrill L Finger11
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger2
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger2/Mandrill L Finger21
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger3
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      L Clavicle/Mandrill L UpperArm/Mandrill L Forearm/Mandrill L Hand/Mandrill L
+      Finger3/Mandrill L Finger31
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Hair Front
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Hair Top
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw/Mandrill L Lower Mouth
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw/Mandrill L Mouth
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw/Mandrill R Lower Mouth
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw/Mandrill R Mouth
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw/Mandrill Tongue
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Jaw/Mandrill Tongue/Mandrill Tongue02
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill L Ear
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill L Eye
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill L Eyebrow
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill L Upper Mouth
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill Nose
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill R Ear
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill R Eye
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill R Eyebrow
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      Neck/Mandrill Head/Mandrill R Upper Mouth
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger0
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger0/Mandrill R Finger01
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger1
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger1/Mandrill R Finger11
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger2
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger2/Mandrill R Finger21
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger3
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Spine/Mandrill Spine1/Mandrill Spine2/Mandrill
+      R Clavicle/Mandrill R UpperArm/Mandrill R Forearm/Mandrill R Hand/Mandrill R
+      Finger3/Mandrill R Finger31
+    m_Weight: 1
+  - m_Path: Mandrill/Mandrill Pelvis/Mandrill Tail
+    m_Weight: 1
+  - m_Path: Mandrill Mesh
+    m_Weight: 1

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Toucan All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Toucan
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+      L Back Toe
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+      L Back Toe/Toucan L Back Toe02
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+      L Toe0
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan L Thigh/Toucan L Calf/Toucan L Foot/Toucan
+      L Toe0/Toucan L Toe01
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+      R Back Toe
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+      R Back Toe/Toucan R Back Toe02
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+      R Toe0
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan R Thigh/Toucan R Calf/Toucan R Foot/Toucan
+      R Toe0/Toucan R Toe01
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan L
+      Clavicle
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan L
+      Clavicle/Toucan L UpperArm
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan L
+      Clavicle/Toucan L UpperArm/Toucan L Forearm
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan L
+      Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan L
+      Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan L
+      Clavicle/Toucan L UpperArm/Toucan L Forearm/Toucan L Hand/Toucan L Finger0/Toucan
+      L Finger01
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Eye Left
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Eye Right
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan Hair Back
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan Hair Back/Toucan Hair Back02
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan Jaw
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan Jaw/Toucan Tongue
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan Jaw/Toucan Tongue/Toucan Tongue02/Toucan Tongue03
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan L Eyebrow
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan L Mouth
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan R Eyebrow
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan R Mouth
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan Neck/Toucan
+      Head/Toucan R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan R
+      Clavicle
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan R
+      Clavicle/Toucan R UpperArm
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan R
+      Clavicle/Toucan R UpperArm/Toucan R Forearm
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan R
+      Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan R
+      Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Spine/Toucan Spine1/Toucan Spine2/Toucan R
+      Clavicle/Toucan R UpperArm/Toucan R Forearm/Toucan R Hand/Toucan R Finger0/Toucan
+      R Finger01
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Tail
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1
+    m_Weight: 1
+  - m_Path: Toucan/Toucan Pelvis/Toucan Tail/Toucan Tail1/Toucan Tail2
+    m_Weight: 1
+  - m_Path: Toucan Mesh
+    m_Weight: 1

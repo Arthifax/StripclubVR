@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Monkey All
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Monkey
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey L Thigh
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey L Thigh/Monkey L Calf/Monkey L Foot/Monkey
+      L Toe0
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey R Thigh
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey R Thigh/Monkey R Calf/Monkey R Foot/Monkey
+      R Toe0
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey L
+      Clavicle
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey L
+      Clavicle/Monkey L UpperArm
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey L
+      Clavicle/Monkey L UpperArm/Monkey L Forearm
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey L
+      Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey L
+      Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger0
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey L
+      Clavicle/Monkey L UpperArm/Monkey L Forearm/Monkey L Hand/Monkey L Finger1
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Eye Left
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Eye Right
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw/Monkey C Lower Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw/Monkey L Lower Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw/Monkey R Lower Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw/Monkey Tongue
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Jaw/Monkey Tongue/Monkey Tongue02/Monkey Tongue03
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey L Ear
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey L Eyebrow
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey L Hair
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey L Lower Eyelid
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey L Upper Eyelid
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey L Upper Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey LC Upper Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Nose
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey R Ear
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey R Eyebrow
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey R Hair
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey R Lower Eyelid
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey R Upper Eyelid
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey R Upper Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey RC Upper Lip
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey Neck/Monkey
+      Head/Monkey Top Hair
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey R
+      Clavicle
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey R
+      Clavicle/Monkey R UpperArm
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey R
+      Clavicle/Monkey R UpperArm/Monkey R Forearm
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey R
+      Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey R
+      Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger0
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Spine/Monkey Spine1/Monkey Spine2/Monkey R
+      Clavicle/Monkey R UpperArm/Monkey R Forearm/Monkey R Hand/Monkey R Finger1
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey Tail04
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey Tail04/Monkey
+      Tail05
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey Tail04/Monkey
+      Tail05/Monkey Tail06
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey Tail04/Monkey
+      Tail05/Monkey Tail06/Monkey Tail07
+    m_Weight: 1
+  - m_Path: Monkey/Monkey Pelvis/Monkey Tail/Monkey Tail02/Monkey Tail03/Monkey Tail04/Monkey
+      Tail05/Monkey Tail06/Monkey Tail07/Monkey Tail08
+    m_Weight: 1
+  - m_Path: Monkey Mesh
+    m_Weight: 1
