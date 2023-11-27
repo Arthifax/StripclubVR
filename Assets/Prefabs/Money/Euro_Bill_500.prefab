@@ -11,6 +11,11 @@ GameObject:
   - component: {fileID: 4450092443408716813}
   - component: {fileID: 1448068394988500319}
   - component: {fileID: 4734314978815360773}
+  - component: {fileID: 8863061403344050713}
+  - component: {fileID: 1474761274133841117}
+  - component: {fileID: 3774374263282568482}
+  - component: {fileID: 3724796708025450136}
+  - component: {fileID: 4328691364387504097}
   m_Layer: 0
   m_Name: Euro_Bill_500
   m_TagString: Untagged
@@ -25,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4391407638375862370}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 7.6, y: 7.6, z: 7.6}
   m_ConstrainProportionsScale: 0
@@ -83,3 +88,77 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8863061403344050713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391407638375862370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7cac7b4c5073044a86b7101e818a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _worth: 500
+  startingPos: {x: 0, y: 0, z: 0}
+  hasUsed: 0
+  thrown: 0
+--- !u!65 &1474761274133841117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391407638375862370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15828052, y: 0.0048941216, z: 0.08199996}
+  m_Center: {x: -0.048679125, y: 0.0025171437, z: 0.4800003}
+--- !u!54 &3774374263282568482
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391407638375862370}
+  serializedVersion: 2
+  m_Mass: 0.1
+  m_Drag: 0.85
+  m_AngularDrag: 0.93
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!75 &3724796708025450136
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391407638375862370}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
+--- !u!114 &4328691364387504097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391407638375862370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc335e41c1b120498dab81fb4012194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FloatForce: 1.11
+  m_SlidePower: 0.168
+  m_PuffPower: 0.841
+  m_PuffDelayMin: 0.215
+  m_PuffDelayMax: 0.414

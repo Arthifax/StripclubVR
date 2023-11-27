@@ -17,8 +17,13 @@ public class MoneyPile : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-            SpawnMoney();
+        /*if (Input.GetKeyDown(KeyCode.I))
+            SpawnMoney();*/
+    }
+
+    public void ActivatePile()
+    {
+        SpawnMoney();
     }
 
     public GameObject SpawnMoney()

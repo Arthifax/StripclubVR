@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
+using TMPro;
 
 public class MoneyController : MonoBehaviour
 {
@@ -28,12 +29,12 @@ public class MoneyController : MonoBehaviour
 
     [SerializeField] private int _startingMoney = 1000;
 
-    [SerializeField] private Text _moneyGivenText = null;
-    [SerializeField] private Text _moneyOwnedText = null;
+    [SerializeField] private TextMeshProUGUI _moneyGivenText = null;
+    [SerializeField] private TextMeshProUGUI _moneyOwnedText = null;
     [SerializeField] private string _moneyOwnedString = "Geld Over: ";
     [SerializeField] private string _moneyGivenString = "Geld Gegeven: ";
 
-    [SerializeField] private Canvas _moneyCanvas = null;
+    [SerializeField] private GameObject _moneyCanvas = null;
     //[SerializeField] private GameObject panel = null;
 
     [SerializeField] private GameObject[] _moneyPiles = null;
@@ -104,7 +105,7 @@ public class MoneyController : MonoBehaviour
                 else if (!_nextLevelButton)
                     GameManager.NextLevel();
             }
-            _moneyCanvas.gameObject.SetActive(true);
+            _moneyCanvas.SetActive(true);
         }
 
         if (!_payDancerButton.activeSelf && !_allClipsPlayed)
@@ -114,7 +115,7 @@ public class MoneyController : MonoBehaviour
                 _payDancerButton.SetActive(true);
                 //_payDancerButton.GetComponentInChildren<Buttonlinker>().LowLight();
                 _infoBg.SetActive(true);
-                _moneyCanvas.gameObject.SetActive(true);
+                _moneyCanvas.SetActive(true);
             }
         }
 
