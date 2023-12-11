@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Linq;
+using UnityEngine.XR;
 
 [RequireComponent(typeof(Camera))]
 public class PhotoCapture : MonoBehaviour
@@ -59,30 +60,12 @@ public class PhotoCapture : MonoBehaviour
     private void Update()
     {
 
-        if ((OVRInput.Get(OVRInput.RawButton.RIndexTrigger) && !pressed)) //|| Input.GetKeyDown(KeyCode.Space))
+        if (UnityEngine.XR.InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && !pressed) //|| Input.GetKeyDown(KeyCode.Space))
         {
             pressed = true;
             if (cameraModeActive) TakePhoto(); else SwitchPhoto();
         }
-        else if (OVRInput.Get(OVRInput.RawButton.RThumbstickLeft) && !pressed && !cameraModeActive)
-        {
-            pressed = true;
-            //SwitchPhoto(0);
-        }
-        else if (OVRInput.Get(OVRInput.RawButton.RThumbstickRight) && !pressed && !cameraModeActive)
-        {
-            pressed = true;
-            //SwitchPhoto(1);
-        }
-        else if ((OVRInput.Get(OVRInput.RawButton.RHandTrigger) && !pressed)) //|| Input.GetKeyDown(KeyCode.A))
-        {
-            pressed = true;
-            //SwitchMode();
-        }
-        else if (   !OVRInput.Get(OVRInput.RawButton.RIndexTrigger) && 
-                    !OVRInput.Get(OVRInput.RawButton.RHandTrigger) && 
-                    !OVRInput.Get(OVRInput.RawButton.RThumbstickLeft) && 
-                    !OVRInput.Get(OVRInput.RawButton.RThumbstickRight))
+        else
         {
             pressed = false;
         }
