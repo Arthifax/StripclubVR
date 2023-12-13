@@ -39,19 +39,7 @@ public class Level1Manager : MonoBehaviour
 
     private void Start()
     {
-        if (GameManager.GetLevelCompleted(1))
-        {
-            foreach (GameObject obj in objectsToEnable)
-            {
-                obj.SetActive(true);
-            }
-        }
-        else
-        {
-            // Hey future Joey, if the hint system isnt working in game its prob because of this!!!!!!
-            // If the init scene doesnt get loaded first this script cant find GameManager, very important!
-            //hc.StartTimer();
-        }
+        
     }
 
     public void GetString(string input)

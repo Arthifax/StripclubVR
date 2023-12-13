@@ -43,7 +43,7 @@ public class VideoManager : MonoBehaviour
     {
         vp.loopPointReached += VideoDone;
 
-        StartCoroutine(FadeIn());
+        //StartCoroutine(FadeIn());
         if (playFirstVideoWhenStart)
         {
             PlayVideo();
@@ -79,7 +79,7 @@ public class VideoManager : MonoBehaviour
 
     public void PlayVideo()
     {
-        StartCoroutine(FadeOut());
+        //StartCoroutine(FadeOut());
         if (vp.clip == null)
         {
             vp.clip = videos[count];
@@ -94,7 +94,7 @@ public class VideoManager : MonoBehaviour
     {
         if (count + 1 < videos.Length)
         {
-            StartCoroutine(FadeOut());
+            //StartCoroutine(FadeOut());
             vp.Stop();
             vp.clip = videos[++count];
             vp.Play();
@@ -107,7 +107,7 @@ public class VideoManager : MonoBehaviour
     {
         if (index < videos.Length)
         {
-            StartCoroutine(FadeOut());
+            //StartCoroutine(FadeOut());
             vp.Stop();
             vp.clip = videos[index];
             vp.Play();
@@ -123,7 +123,7 @@ public class VideoManager : MonoBehaviour
 
     public void RestartVideo()
     {
-        StartCoroutine(FadeOut());
+        //StartCoroutine(FadeOut());
         vp.Stop();
         OnVideoReset?.Invoke();
         vp.Play();
@@ -132,7 +132,7 @@ public class VideoManager : MonoBehaviour
 
     public IEnumerator FadeIn()
     {
-        StopCoroutine(FadeOut());
+        //StopCoroutine(FadeOut());
         doneFading = false;
         while (canvasGroup.alpha > 0)
         {
@@ -145,12 +145,12 @@ public class VideoManager : MonoBehaviour
     public IEnumerator WaitForReady()
     {
         yield return new WaitUntil(() => vp.isPrepared && doneFading);
-        StartCoroutine(FadeIn());
+        //StartCoroutine(FadeIn());
     }
 
     public IEnumerator FadeOut()
     {
-        StopCoroutine(FadeIn());
+        //StopCoroutine(FadeIn());
         doneFading = false;
         while (canvasGroup.alpha < 1)
         {
@@ -164,7 +164,7 @@ public class VideoManager : MonoBehaviour
     {
         if (count + 1 < videos.Length)
         {
-            StartCoroutine(FadeOut());
+            //StartCoroutine(FadeOut());
             vp.Stop();
             vp.clip = clip;
             vp.Play();

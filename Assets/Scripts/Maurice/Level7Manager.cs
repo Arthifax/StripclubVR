@@ -22,13 +22,13 @@ public class Level7Manager : MonoBehaviour
 
     private void Start()
     {
-        if (GameManager.GetLevelCompleted(7))
+        /*if (GameManager.GetLevelCompleted(7))
         {
             foreach (GameObject obj in objectsToEnable)
             {
                 obj.SetActive(true);
             }
-        }
+        }*/
     }
 
     private void Update()

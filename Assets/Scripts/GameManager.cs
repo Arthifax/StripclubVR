@@ -70,9 +70,9 @@ public class GameManager : MonoBehaviour
 
     public static bool isLicense() { return FindObjectOfType<GameManager>().isLicenseVersion; }
 
-    public static void OnLevelCompleted(int level) { FindObjectOfType<GameManager>().levelsCompleted[level - 1] = true; }
+    //public static void OnLevelCompleted(int level) { FindObjectOfType<GameManager>().levelsCompleted[level - 1] = true; }
 
-    public static bool GetLevelCompleted(int level) { return FindObjectOfType<GameManager>().levelsCompleted[level - 1]; }
+    //public static bool GetLevelCompleted(int level) { return FindObjectOfType<GameManager>().levelsCompleted[level - 1]; }
 
     public AudioSource GetBackgroundMusicSource() { return GetComponent<AudioSource>(); }
 }
