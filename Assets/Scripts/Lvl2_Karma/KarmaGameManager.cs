@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -87,7 +88,7 @@ namespace KarmaVR
             if (!ready || playing || finished || money == null || !money.IsOpen || answerText == null)
                 return;
 
-            string input = answerText.text.Trim();
+            string input = NormalizeAnswer(answerText.text);
             answerText.text = string.Empty;
             if (input.Length == 0)
                 return;
@@ -95,7 +96,7 @@ namespace KarmaVR
             foreach (Answer answer in answers)
             {
                 if (answer != null && answer.reward > 0 &&
-                    string.Equals(input, answer.text?.Trim(), StringComparison.OrdinalIgnoreCase) &&
+                    string.Equals(input, NormalizeAnswer(answer.text), StringComparison.OrdinalIgnoreCase) &&
                     rewardedAnswers.Add(input))
                 {
                     money.Award(answer.reward);
@@ -105,6 +106,11 @@ namespace KarmaVR
             }
 
             incorrectAnswer.Invoke();
+        }
+
+        private static string NormalizeAnswer(string text)
+        {
+            return text == null ? string.Empty : string.Concat(text.Where(c => !char.IsWhiteSpace(c)));
         }
 
         public void SubmitPayment()
@@ -121,7 +127,7 @@ namespace KarmaVR
                     continue;
 
                 // A zero-price clip is repeatable and does not count as a paid act.
-                Play(act.clip, amount > 0 ? act : null);
+                Play(act.clip, amount > 0 ? act : null, restoreIntro: true);
                 return;
             }
 
@@ -133,7 +139,7 @@ namespace KarmaVR
 
             money.RefundPayment();
             if (wrongPayment != null)
-                Play(wrongPayment);
+                Play(wrongPayment, restoreIntro: true);
             paymentRejected.Invoke();
         }
 
@@ -156,7 +162,7 @@ namespace KarmaVR
             SceneManager.LoadScene(nextScene);
         }
 
-        private void Play(VideoClip clip, Act act = null)
+        private void Play(VideoClip clip, Act act = null, bool restoreIntro = false)
         {
             playing = true;
             SetPuzzleVisible(false);
@@ -174,14 +180,35 @@ namespace KarmaVR
                         finished = Array.TrueForAll(acts, entry => entry.price == 0 || completed.Contains(entry));
                     }
 
-                    ResumePuzzle();
-                    if (act != null && finished)
-                        levelCompleted.Invoke();
+                    void FinishPlayback()
+                    {
+                        ResumePuzzle();
+                        if (act != null && finished)
+                            levelCompleted.Invoke();
+                    }
+
+                    if (restoreIntro)
+                        RestoreIntroBackdrop(FinishPlayback);
+                    else
+                        FinishPlayback();
                 },
                 reason => PlaybackError(clip, reason));
 
             if (!started)
                 PlaybackError(clip, "The video player could not accept the request.");
+        }
+
+        private void RestoreIntroBackdrop(Action completed)
+        {
+            void OnFailure(string reason)
+            {
+                Debug.LogError("Karma could not restore the intro backdrop: " + reason, this);
+                completed();
+                playbackFailed.Invoke();
+            }
+
+            if (!videoManager.HoldFinalFrame(intro, completed, OnFailure))
+                OnFailure("The video player could not accept the request.");
         }
 
         private void PlaybackError(VideoClip clip, string reason)
