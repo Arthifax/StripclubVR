@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 120628011}
   - component: {fileID: 120628010}
   - component: {fileID: 120628009}
+  - component: {fileID: 120628012}
   m_Layer: 5
   m_Name: Collider
   m_TagString: Wall
@@ -550,6 +551,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120628007}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &120628012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120628007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 328100920}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782417966}
+        m_TargetAssemblyTypeName: LoadLevel, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Hub
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
 --- !u!1 &121546855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,8 +1920,6 @@ GameObject:
   m_Component:
   - component: {fileID: 563413150}
   - component: {fileID: 563413151}
-  - component: {fileID: 563413153}
-  - component: {fileID: 563413152}
   m_Layer: 0
   m_Name: L_bg
   m_TagString: Untagged
@@ -1913,30 +1996,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &563413152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563413149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b3ca8ec23aa964592355dfc0b11ed7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &563413153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563413149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c07e7aaacc5d02646bfcc1a2838a192e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &617719892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,6 +2097,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a50f8422ae81ff46aa33372666e4565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &652577564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1349328080218596539, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
+  m_PrefabInstance: {fileID: 7360965237783748885}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &661157737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2427,7 +2491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &750971463
 Transform:
   m_ObjectHideFlags: 0
@@ -2814,26 +2878,94 @@ MonoBehaviour:
   intro: {fileID: 32900000, guid: 752b61bb303aa5b43b2e0384772e74c7, type: 3}
   wrongPayment: {fileID: 32900000, guid: c87a9c6c725a0f94aa282994ea9be9b8, type: 3}
   acts:
+  - price: 200
+    clip: {fileID: 32900000, guid: a498ec506d86fd542ac154e831d2c825, type: 3}
+    infoPanel: {fileID: 7842879899967894894}
+  - price: 250
+    clip: {fileID: 32900000, guid: d3854eb09ef6bce4687b3931f4ec89c6, type: 3}
+    infoPanel: {fileID: 7842879900273722392}
+  - price: 500
+    clip: {fileID: 32900000, guid: b7bc33ba365f0714dbb8937a326e52df, type: 3}
+    infoPanel: {fileID: 7842879900399583212}
+  - price: 1500
+    clip: {fileID: 32900000, guid: 12e3678e4e2e76f46bf2e85a30ec5ddf, type: 3}
+    infoPanel: {fileID: 7842879900898766290}
   - price: 0
-    clip: {fileID: 0}
+    clip: {fileID: 32900000, guid: c87a9c6c725a0f94aa282994ea9be9b8, type: 3}
     infoPanel: {fileID: 0}
-  - price: 0
-    clip: {fileID: 0}
-    infoPanel: {fileID: 0}
-  - price: 0
-    clip: {fileID: 0}
-    infoPanel: {fileID: 0}
-  puzzleControls: {fileID: 0}
-  nextLevelButton: {fileID: 0}
+  puzzleControls: {fileID: 7842879901129570621}
+  nextLevelButton: {fileID: 1782417961}
   walletText: {fileID: 7842879899708768625}
   paymentText: {fileID: 7842879900612111506}
+  answerText: {fileID: 1078450579}
+  answers:
+  - text: Rio
+    reward: 500
+  - text: Sydney
+    reward: 500
+  - text: New York
+    reward: 500
+  correctAnswer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 220d054155eeffe478caec598a7bada6, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  incorrectAnswer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 9e0a05b46e84dae40a7f21a44ae9e455, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   nextScene: 
   paymentRejected:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 9e0a05b46e84dae40a7f21a44ae9e455, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   levelCompleted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 906fc4d2441897941bd03e2d72a70c18, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   playbackFailed:
     m_PersistentCalls:
       m_Calls: []
@@ -2977,6 +3109,130 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823411317}
   m_CullTransparentMesh: 1
+--- !u!1 &945782322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3612910097311553040, guid: baea3208c24f3dd42801a4f196115478, type: 3}
+  m_PrefabInstance: {fileID: 8675834690293665343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &945782327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945782322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aed7d9108e8c94e84f8d9cb7dd34a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzle: {fileID: 822883910}
+  denomination: 50
+  billPrefab: {fileID: 566309155025863748, guid: e67a8db518d13ab4cad361e706e2ecef, type: 3}
+  billSpawnPoint: {fileID: 533921316}
+  moneyTarget: {fileID: 788331799}
+  moneyAdded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: eee0b8d457b8e4f47a00dbf3ad9d3116, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  insufficientFunds:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &945782328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945782322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 328100920}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 945782327}
+        m_TargetAssemblyTypeName: KarmaVR.MoneyPile, Assembly-CSharp
+        m_MethodName: AddToPayment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
 --- !u!1 &963677032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,6 +3573,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a50f8422ae81ff46aa33372666e4565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1078450579 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6246759706918841913, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+  m_PrefabInstance: {fileID: 7191145793254669456}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1080921801
@@ -3781,6 +4048,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1234214057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6857040765671005431, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
+  m_PrefabInstance: {fileID: 2881223940702917357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1234214062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234214057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aed7d9108e8c94e84f8d9cb7dd34a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzle: {fileID: 822883910}
+  denomination: 500
+  billPrefab: {fileID: 6019618326269301376, guid: 7256c3954f07a7c46bb6bb405dac5b33, type: 3}
+  billSpawnPoint: {fileID: 1025052220}
+  moneyTarget: {fileID: 788331799}
+  moneyAdded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: eee0b8d457b8e4f47a00dbf3ad9d3116, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  insufficientFunds:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1234214063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234214057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 328100920}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1234214062}
+        m_TargetAssemblyTypeName: KarmaVR.MoneyPile, Assembly-CSharp
+        m_MethodName: AddToPayment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
 --- !u!114 &1288797951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4426,6 +4817,125 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8449180204581360872, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
   m_PrefabInstance: {fileID: 7360965237783748885}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1750602483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652577564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aed7d9108e8c94e84f8d9cb7dd34a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzle: {fileID: 822883910}
+  denomination: 200
+  billPrefab: {fileID: -3756674040077990740, guid: 8919242c0cfc99c458235258e0aad6a4, type: 3}
+  billSpawnPoint: {fileID: 1750602478}
+  moneyTarget: {fileID: 788331799}
+  moneyAdded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: eee0b8d457b8e4f47a00dbf3ad9d3116, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  insufficientFunds:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1750602484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652577564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 328100920}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1750602483}
+        m_TargetAssemblyTypeName: KarmaVR.MoneyPile, Assembly-CSharp
+        m_MethodName: AddToPayment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
 --- !u!114 &1754643493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4681,7 +5191,6 @@ GameObject:
   - component: {fileID: 1782417965}
   - component: {fileID: 1782417964}
   - component: {fileID: 1782417963}
-  - component: {fileID: 1782417962}
   - component: {fileID: 1782417966}
   m_Layer: 5
   m_Name: LoadNextLevel Button
@@ -4690,18 +5199,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1782417962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782417961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1782417963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4735,7 +5232,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 248342543}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4778,7 +5275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1782417961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38977524180f9fa498b201f29fae3c69, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bd493b2a086aa24e865145ca447cc03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1791951656
@@ -5189,6 +5686,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 184.68, z: 0}
+--- !u!1 &2092753607 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832045058258503374, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
+  m_PrefabInstance: {fileID: 2718253543520356096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2092753612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092753607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aed7d9108e8c94e84f8d9cb7dd34a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzle: {fileID: 822883910}
+  denomination: 100
+  billPrefab: {fileID: 2444233727592439075, guid: d88edb7295bca964b84129d979bf25f2, type: 3}
+  billSpawnPoint: {fileID: 1696318386}
+  moneyTarget: {fileID: 788331799}
+  moneyAdded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: eee0b8d457b8e4f47a00dbf3ad9d3116, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  insufficientFunds:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2092753613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092753607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 328100920}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2092753612}
+        m_TargetAssemblyTypeName: KarmaVR.MoneyPile, Assembly-CSharp
+        m_MethodName: AddToPayment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
 --- !u!114 &2110073372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12437,13 +13058,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoneyPile100
       objectReference: {fileID: 0}
+    - target: {fileID: 3832045058258503374, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832045058258503375, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
       propertyPath: _target
       value: 
       objectReference: {fileID: 788331799}
     - target: {fileID: 3832045058258503376, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5773466741565802154, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
       propertyPath: m_RootOrder
@@ -12489,10 +13114,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3832045058258503375, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832045058258503374, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2092753613}
+    - targetCorrespondingSourceObject: {fileID: 3832045058258503374, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2092753612}
   m_SourcePrefab: {fileID: 100100000, guid: e8f4e96f7beb72144b9abc673e2e84cb, type: 3}
 --- !u!1 &2804097730683821703
 GameObject:
@@ -12612,7 +13244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6857040765671005425, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6857040765671005430, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
       propertyPath: _target
@@ -12622,10 +13254,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoneyPile500
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6857040765671005431, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6857040765671005430, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6857040765671005431, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1234214063}
+    - targetCorrespondingSourceObject: {fileID: 6857040765671005431, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1234214062}
   m_SourcePrefab: {fileID: 100100000, guid: 09ac3b2e5af241d4b8cd2e02ae6e8f31, type: 3}
 --- !u!1 &2886084030022308124
 GameObject:
@@ -17547,6 +18190,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1803781185279684570, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1894194759582978430, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -17959,6 +18606,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4787539177967793248, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4797329822931030238, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -17998,6 +18649,66 @@ PrefabInstance:
     - target: {fileID: 4847175266480794293, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: inputFieldLabel
+      value: 
+      objectReference: {fileID: 1078450579}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 822883911}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1172166231}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CheckAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayOneShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KarmaVR.KarmaGameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a6dec030dc0b364099b9c1542219be5, type: 3}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200841378737903696, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: enterPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.AudioClip, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5390659246166315286, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchorMax.y
@@ -18571,7 +19282,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1349328080218596517, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1349328080218596538, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
       propertyPath: _target
@@ -18580,6 +19291,10 @@ PrefabInstance:
     - target: {fileID: 1349328080218596539, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
       propertyPath: m_Name
       value: MoneyPile200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349328080218596539, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8449180204581360872, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
       propertyPath: m_RootOrder
@@ -18625,10 +19340,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1349328080218596538, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1349328080218596539, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1750602484}
+    - targetCorrespondingSourceObject: {fileID: 1349328080218596539, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1750602483}
   m_SourcePrefab: {fileID: 100100000, guid: d9faf5baa1ffd3645b44bb935e2fc7c8, type: 3}
 --- !u!1 &7366959102241277862
 GameObject:
@@ -23575,13 +24297,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MoneyController, Assembly-CSharp
-        m_MethodName: PlayNextAct
+      - m_Target: {fileID: 822883911}
+        m_TargetAssemblyTypeName: KarmaVR.KarmaGameManager, Assembly-CSharp
+        m_MethodName: SubmitPayment
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1172166231}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 8a6dec030dc0b364099b9c1542219be5, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -24209,7 +24943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &7842879900273722389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24235,7 +24969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7842879900273722394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24369,7 +25103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7842879900399583214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24897,7 +25631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &7842879901103928514
 GameObject:
   m_ObjectHideFlags: 0
@@ -25031,7 +25765,7 @@ Transform:
   m_GameObject: {fileID: 7842879901129570621}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000035762784}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.09, y: 1.43, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26025,7 +26759,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3612910097311553038, guid: baea3208c24f3dd42801a4f196115478, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3612910097311553039, guid: baea3208c24f3dd42801a4f196115478, type: 3}
       propertyPath: _target
@@ -26034,6 +26768,10 @@ PrefabInstance:
     - target: {fileID: 3612910097311553040, guid: baea3208c24f3dd42801a4f196115478, type: 3}
       propertyPath: m_Name
       value: MoneyPile50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612910097311553040, guid: baea3208c24f3dd42801a4f196115478, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6264212384566415622, guid: baea3208c24f3dd42801a4f196115478, type: 3}
       propertyPath: m_RootOrder
@@ -26079,10 +26817,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3612910097311553039, guid: baea3208c24f3dd42801a4f196115478, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3612910097311553040, guid: baea3208c24f3dd42801a4f196115478, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 945782328}
+    - targetCorrespondingSourceObject: {fileID: 3612910097311553040, guid: baea3208c24f3dd42801a4f196115478, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 945782327}
   m_SourcePrefab: {fileID: 100100000, guid: baea3208c24f3dd42801a4f196115478, type: 3}
 --- !u!222 &8694095011010312342
 CanvasRenderer:

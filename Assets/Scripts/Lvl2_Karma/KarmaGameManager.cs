@@ -13,9 +13,16 @@ namespace KarmaVR
         [Serializable]
         private sealed class Act
         {
-            [Min(1)] public int price;
+            [Min(0)] public int price;
             public VideoClip clip;
             public GameObject infoPanel;
+        }
+
+        [Serializable]
+        private sealed class Answer
+        {
+            public string text;
+            [Min(1)] public int reward;
         }
 
         [SerializeField] private VideoManager videoManager;
@@ -27,12 +34,18 @@ namespace KarmaVR
         [SerializeField] private GameObject nextLevelButton;
         [SerializeField] private TextMeshProUGUI walletText;
         [SerializeField] private TextMeshProUGUI paymentText;
+        [SerializeField] private TextMeshProUGUI answerText;
+        [SerializeField] private Answer[] answers = new Answer[0];
+        [SerializeField] private UnityEvent correctAnswer = new UnityEvent();
+        [SerializeField] private UnityEvent incorrectAnswer = new UnityEvent();
         [SerializeField] private string nextScene;
         [SerializeField] private UnityEvent paymentRejected = new UnityEvent();
         [SerializeField] private UnityEvent levelCompleted = new UnityEvent();
         [SerializeField] private UnityEvent playbackFailed = new UnityEvent();
 
         private readonly HashSet<Act> completed = new HashSet<Act>();
+        private readonly HashSet<string> rewardedAnswers =
+            new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         private VideoClip replayClip;
         private bool playing;
         private bool ready;
@@ -69,6 +82,31 @@ namespace KarmaVR
                 money.Changed -= RefreshMoney;
         }
 
+        public void CheckAnswer()
+        {
+            if (!ready || playing || finished || money == null || !money.IsOpen || answerText == null)
+                return;
+
+            string input = answerText.text.Trim();
+            answerText.text = string.Empty;
+            if (input.Length == 0)
+                return;
+
+            foreach (Answer answer in answers)
+            {
+                if (answer != null && answer.reward > 0 &&
+                    string.Equals(input, answer.text?.Trim(), StringComparison.OrdinalIgnoreCase) &&
+                    rewardedAnswers.Add(input))
+                {
+                    money.Award(answer.reward);
+                    correctAnswer.Invoke();
+                    return;
+                }
+            }
+
+            incorrectAnswer.Invoke();
+        }
+
         public void SubmitPayment()
         {
             if (!ready || playing || finished || money == null || !money.IsOpen)
@@ -77,19 +115,20 @@ namespace KarmaVR
                 return;
 
             int amount = money.Payment;
+            foreach (Act act in acts)
+            {
+                if (act.price != amount || completed.Contains(act))
+                    continue;
+
+                // A zero-price clip is repeatable and does not count as a paid act.
+                Play(act.clip, amount > 0 ? act : null);
+                return;
+            }
+
             if (amount == 0)
             {
                 paymentRejected.Invoke();
                 return;
-            }
-
-            foreach (Act act in acts)
-            {
-                if (act.price == amount && !completed.Contains(act))
-                {
-                    Play(act.clip, act);
-                    return;
-                }
             }
 
             money.RefundPayment();
@@ -132,7 +171,7 @@ namespace KarmaVR
                         money.SpendPayment();
                         if (act.infoPanel != null)
                             act.infoPanel.SetActive(true);
-                        finished = completed.Count == acts.Length;
+                        finished = Array.TrueForAll(acts, entry => entry.price == 0 || completed.Contains(entry));
                     }
 
                     ResumePuzzle();
@@ -197,9 +236,9 @@ namespace KarmaVR
             var prices = new HashSet<int>();
             foreach (Act act in acts)
             {
-                if (act == null || act.clip == null || act.price <= 0 || !prices.Add(act.price))
+                if (act == null || act.clip == null || act.price < 0 || !prices.Add(act.price))
                 {
-                    Debug.LogError("Each Karma act needs a clip and a unique positive price.", this);
+                    Debug.LogError("Each Karma act needs a clip and a unique price of zero or more.", this);
                     return false;
                 }
             }

@@ -16,7 +16,7 @@ namespace KarmaVR
         }
 
         [SerializeField] private MoneyPuzzle puzzle;
-        [SerializeField] private TMP_InputField field;
+        [SerializeField] private TextMeshProUGUI field;
         [SerializeField] private Answer[] answers = new Answer[0];
         [SerializeField] private UnityEvent correct = new UnityEvent();
         [SerializeField] private UnityEvent incorrect = new UnityEvent();
