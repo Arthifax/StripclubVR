@@ -1,195 +1,145 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
-public class VideoManager : MonoBehaviour
+namespace KarmaVR
 {
-    public VideoClip[] videos;
-    public UnityEvent videoAtEnd;
-
-    [SerializeField] private GameObject panel;
-
-    [SerializeField] private bool playFirstVideoWhenStart = true;
-
-    [SerializeField] private bool playVideo = false;
-    [SerializeField] private bool pauseVideo = false;
-    [SerializeField] private bool playNextVideo = false;
-    [SerializeField] private bool restartVideo = false;
-
-    [HideInInspector]
-    public VideoPlayer vp;
-
-    [SerializeField]
-    private UnityEvent OnVideoReset;
-
-    int count = 0;
-
-    bool doneFading = true;
-    CanvasGroup canvasGroup;
-
-    private void Awake()
+    [RequireComponent(typeof(VideoPlayer))]
+    public sealed class VideoManager : MonoBehaviour
     {
-        vp = GetComponent<VideoPlayer>();
+        [SerializeField] private CanvasGroup fadeOverlay;
+        [SerializeField, Min(0)] private float fadeSeconds = 0.35f;
+        [SerializeField, Min(1)] private float startupTimeout = 15f;
 
-        if (panel)
-            canvasGroup = panel.GetComponent<CanvasGroup>();
-    }
+        private VideoPlayer player;
+        private bool busy;
+        private bool firstFrame;
+        private bool ended;
+        private string error;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        vp.loopPointReached += VideoDone;
-
-        //StartCoroutine(FadeIn());
-        if (playFirstVideoWhenStart)
+        private void Awake()
         {
-            PlayVideo();
+            player = GetComponent<VideoPlayer>();
+            player.playOnAwake = false;
+            player.isLooping = false;
+            player.waitForFirstFrame = true;
+            player.source = VideoSource.VideoClip;
         }
 
-        if (FindObjectOfType<Level1Manager>())
-            FindObjectOfType<Level1Manager>().SetLastVideo(vp.clip);
-    }
-
-    private void Update()
-    {
-        if (playVideo)
+        private void OnEnable()
         {
-            playVideo = false;
-            PlayVideo();
+            player.frameReady += OnFrame;
+            player.loopPointReached += OnEnd;
+            player.errorReceived += OnError;
         }
-        if (pauseVideo)
+
+        private void OnDisable()
         {
-            pauseVideo = false;
-            PauseVideo();
+            player.frameReady -= OnFrame;
+            player.loopPointReached -= OnEnd;
+            player.errorReceived -= OnError;
+            StopAllCoroutines();
+            player.sendFrameReadyEvents = false;
+            player.Stop();
+            if (fadeOverlay != null)
+                fadeOverlay.alpha = 0;
+            busy = false;
         }
-        if (playNextVideo)
+
+        // The scene VideoPlayer owns the RenderTexture assignment.
+        public bool Play(VideoClip clip, Action completed, Action<string> failed)
         {
-            playNextVideo = false;
-            PlayNextVideo();
+            return Play(clip, completed, failed, interruptCurrent: false);
         }
-        if (restartVideo)
+
+        public bool Play(VideoClip clip, Action completed, Action<string> failed, bool interruptCurrent)
         {
-            restartVideo = false;
-            RestartVideo();
-        }
-    }
+            if (!isActiveAndEnabled || clip == null || (busy && !interruptCurrent))
+                return false;
 
-    public void PlayVideo()
-    {
-        //StartCoroutine(FadeOut());
-        if (vp.clip == null)
+            if (busy)
+            {
+                StopAllCoroutines();
+                player.sendFrameReadyEvents = false;
+                player.Pause();
+            }
+
+            busy = true;
+            StartCoroutine(PlayClip(clip, completed, failed));
+            return true;
+        }
+
+        private IEnumerator PlayClip(VideoClip clip, Action completed, Action<string> failed)
         {
-            vp.clip = videos[count];
+            yield return FadeTo(1);
+            player.Stop();
+            firstFrame = false;
+            ended = false;
+            error = null;
+            player.clip = clip;
+            player.Prepare();
+
+            float deadline = Time.realtimeSinceStartup + startupTimeout;
+            while (!player.isPrepared && error == null && Time.realtimeSinceStartup < deadline)
+                yield return null;
+
+            if (error == null && player.isPrepared)
+            {
+                player.sendFrameReadyEvents = true;
+                player.Play();
+                deadline = Time.realtimeSinceStartup + startupTimeout;
+                while (!firstFrame && !ended && error == null && Time.realtimeSinceStartup < deadline)
+                    yield return null;
+
+                player.sendFrameReadyEvents = false;
+                if (firstFrame && error == null)
+                {
+                    yield return FadeTo(0);
+                    while (!ended && error == null)
+                        yield return null;
+                }
+                else if (error == null)
+                    error = "The video did not produce a frame.";
+            }
+            else if (error == null)
+                error = "Video preparation timed out.";
+
+            // Pause preserves the rendered frame while the puzzle is open.
+            // Stop is reserved for replacing the clip or disabling this component.
+            player.Pause();
+            yield return FadeTo(0);
+
+            busy = false;
+            if (error == null)
+                completed?.Invoke();
+            else
+                failed?.Invoke(error);
         }
-        vp.Play();
-        StartCoroutine(WaitForReady());
-    }
 
-    public VideoClip GetCurrentVideo() { return vp.clip; }
-
-    public void PlayNextVideo()
-    {
-        if (count + 1 < videos.Length)
+        private IEnumerator FadeTo(float target)
         {
-            //StartCoroutine(FadeOut());
-            vp.Stop();
-            vp.clip = videos[++count];
-            vp.Play();
-            StartCoroutine(WaitForReady());
-        }
-        else Debug.LogError("No next video available");
-    }
+            if (fadeOverlay == null)
+                yield break;
 
-    public void PlayVideoAtIndex(int index)
-    {
-        if (index < videos.Length)
+            if (fadeSeconds > 0)
+            {
+                while (fadeOverlay.alpha != target)
+                {
+                    fadeOverlay.alpha = Mathf.MoveTowards(
+                        fadeOverlay.alpha, target, Time.unscaledDeltaTime / fadeSeconds);
+                    yield return null;
+                }
+            }
+            fadeOverlay.alpha = target;
+        }
+
+        private void OnFrame(VideoPlayer source, long frame) => firstFrame = true;
+        private void OnEnd(VideoPlayer source)
         {
-            //StartCoroutine(FadeOut());
-            vp.Stop();
-            vp.clip = videos[index];
-            vp.Play();
-            StartCoroutine(WaitForReady());
+            source.Pause();
+            ended = true;
         }
-        else Debug.LogError("No video at that index");
+        private void OnError(VideoPlayer source, string message) => error = message;
     }
-
-    public void PauseVideo()
-    {
-        vp.Pause();
-    }
-
-    public void RestartVideo()
-    {
-        //StartCoroutine(FadeOut());
-        vp.Stop();
-        OnVideoReset?.Invoke();
-        vp.Play();
-        StartCoroutine(WaitForReady());
-    }
-
-    public IEnumerator FadeIn()
-    {
-        //StopCoroutine(FadeOut());
-        doneFading = false;
-        while (canvasGroup.alpha > 0)
-        {
-            canvasGroup.alpha -= Time.deltaTime * 2;
-            yield return null;
-        }
-        doneFading = true;
-    }
-
-    public IEnumerator WaitForReady()
-    {
-        yield return new WaitUntil(() => vp.isPrepared && doneFading);
-        //StartCoroutine(FadeIn());
-    }
-
-    public IEnumerator FadeOut()
-    {
-        //StopCoroutine(FadeIn());
-        doneFading = false;
-        while (canvasGroup.alpha < 1)
-        {
-            canvasGroup.alpha += Time.deltaTime * 2;
-            yield return null;
-        }
-        doneFading = true;
-    }
-
-    public void PlayVideo(VideoClip clip)
-    {
-        if (count + 1 < videos.Length)
-        {
-            //StartCoroutine(FadeOut());
-            vp.Stop();
-            vp.clip = clip;
-            vp.Play();
-            StartCoroutine(WaitForReady());
-        }
-        else Debug.LogError("No next video available");
-    }
-
-    void VideoDone(VideoPlayer vp)
-    {
-        videoAtEnd.Invoke();
-    }
-
-    public static void VideoLoader(VideoClip clip)
-    {
-        FindObjectOfType<VideoManager>().PlayVideo(clip);
-    }
-
-    public static void ResetVideo()
-    {
-        if (SceneManager.GetActiveScene().name != "Level 1")
-            FindObjectOfType<VideoManager>().RestartVideo();
-        else
-            FindObjectOfType<Level1Manager>().ReplayVideo();
-    }
-
-    public static VideoPlayer GetPlayer() { return FindObjectOfType<VideoManager>().vp; }
 }

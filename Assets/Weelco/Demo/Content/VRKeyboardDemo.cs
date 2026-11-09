@@ -1,6 +1,6 @@
-﻿using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Events;
+using TMPro;
 using Weelco.VRKeyboard;
 
 namespace Weelco {
@@ -11,6 +11,7 @@ namespace Weelco {
 
         public TextMeshProUGUI inputFieldLabel;
         public VRKeyboardFull keyboard;
+        [SerializeField] private UnityEvent enterPressed = new UnityEvent();
 
         void Start() {
             if (keyboard) {
@@ -24,8 +25,11 @@ namespace Weelco {
                 keyboard.OnVRKeyboardBtnClick -= HandleClick;
             }
         }
-        
+
         private void HandleClick(string value) {
+            if (!isActiveAndEnabled || inputFieldLabel == null || string.IsNullOrEmpty(value))
+                return;
+
             if (value.Equals(VRKeyboardData.BACK)) {
                 BackspaceKey();
             }
@@ -41,10 +45,10 @@ namespace Weelco {
             if (inputFieldLabel.text.Length >= 1) {
                 inputFieldLabel.text = inputFieldLabel.text.Remove(inputFieldLabel.text.Length - 1, 1);
             }
-        }    
+        }
 
         private void EnterKey() {
-            // Add enter key handler
+            enterPressed.Invoke();
         }
 
         private void TypeKey(string value) {
@@ -58,6 +62,6 @@ namespace Weelco {
             if (inputFieldLabel.text.Length < maxOutputChars) {
                 inputFieldLabel.text += key.ToString();
             }
-        }    
+        }
     }
 }
