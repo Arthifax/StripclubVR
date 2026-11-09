@@ -21,6 +21,8 @@ namespace KarmaVR
         [SerializeField] private VideoClip secondVideo;
         [SerializeField] private GameObject controllerCameraRoot;
         [SerializeField] private GameObject keyboardRoot;
+        [SerializeField] private GameObject infoCanvasObject;
+        [SerializeField] private GameObject infoObject;
         [SerializeField] private TextMeshProUGUI answerText;
         [SerializeField] private GameObject[] clueTextGameObjects = new GameObject[4];
         [SerializeField, Tooltip("Enable the camera and keyboard at scene start for testing.")]
@@ -32,6 +34,7 @@ namespace KarmaVR
         [SerializeField, Tooltip("Live objective progress. Element 0 is objective 1.")]
         private bool[] objectives = new bool[4];
         private Stage stage;
+        private bool AllCluesCollected => Array.TrueForAll(objectives, clicked => clicked);
 
         private void Start()
         {
@@ -41,6 +44,10 @@ namespace KarmaVR
                 controllerCameraRoot.SetActive(false);
             if (keyboardRoot != null)
                 keyboardRoot.SetActive(false);
+            if (infoCanvasObject != null)
+                infoCanvasObject.SetActive(false);
+            if (infoObject != null)
+                infoObject.SetActive(false);
             foreach (GameObject clue in clueTextGameObjects)
                 if (clue != null)
                     clue.SetActive(false);
@@ -86,11 +93,16 @@ namespace KarmaVR
                 return;
 
             objectives[index] = true;
-            bool allCluesCollected = Array.TrueForAll(objectives, clicked => clicked);
+            bool allCluesCollected = AllCluesCollected;
             if (index < clueTextGameObjects.Length && clueTextGameObjects[index] != null)
                 clueTextGameObjects[index].SetActive(true);
 
-            if (allCluesCollected && happySound != null && gameEffectsAudioSource != null)
+            if (!allCluesCollected)
+                return;
+
+            if (controllerCameraRoot != null)
+                controllerCameraRoot.SetActive(false);
+            if (happySound != null && gameEffectsAudioSource != null)
                 gameEffectsAudioSource.PlayOneShot(happySound);
         }
 
@@ -125,14 +137,20 @@ namespace KarmaVR
             if (controllerCameraRoot != null)
                 controllerCameraRoot.SetActive(false);
 
-            if (!videoManager.Play(secondVideo, FinishGame, RestoreAnswer,
-                    interruptCurrent: true))
+            if (videoManager.Play(secondVideo, FinishGame, RestoreAnswer, interruptCurrent: true))
+            {
+                if (infoCanvasObject != null)
+                    infoCanvasObject.SetActive(true);
+            }
+            else
                 RestoreAnswer("Could not start the second video. Check the Second Video assignment.");
         }
 
         private void FinishGame()
         {
             stage = Stage.Complete;
+            if (infoObject != null)
+                infoObject.SetActive(true);
             gameFinished.Invoke();
         }
 
@@ -140,8 +158,10 @@ namespace KarmaVR
         {
             LogPlaybackError(reason);
             stage = Stage.Objectives;
+            if (infoCanvasObject != null)
+                infoCanvasObject.SetActive(false);
             if (controllerCameraRoot != null)
-                controllerCameraRoot.SetActive(true);
+                controllerCameraRoot.SetActive(!AllCluesCollected);
             if (keyboardRoot != null)
                 keyboardRoot.SetActive(true);
         }
