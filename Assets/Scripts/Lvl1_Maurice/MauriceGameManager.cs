@@ -100,8 +100,6 @@ namespace KarmaVR
             if (!allCluesCollected)
                 return;
 
-            if (controllerCameraRoot != null)
-                controllerCameraRoot.SetActive(false);
             if (happySound != null && gameEffectsAudioSource != null)
                 gameEffectsAudioSource.PlayOneShot(happySound);
         }
@@ -161,7 +159,7 @@ namespace KarmaVR
             if (infoCanvasObject != null)
                 infoCanvasObject.SetActive(false);
             if (controllerCameraRoot != null)
-                controllerCameraRoot.SetActive(!AllCluesCollected);
+                controllerCameraRoot.SetActive(true);
             if (keyboardRoot != null)
                 keyboardRoot.SetActive(true);
         }

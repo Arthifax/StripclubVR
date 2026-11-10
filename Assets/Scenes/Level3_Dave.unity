@@ -3503,12 +3503,20 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 505138881}
+    - target: {fileID: 3528571861064279501, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
+      propertyPath: m_RayOriginTransform
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7014765569248065397, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
       propertyPath: m_StopLineAtFirstRaycastHit
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7014765569248065397, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
       propertyPath: m_OverrideInteractorLineLength
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014765569248065397, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7053574186266944151, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}

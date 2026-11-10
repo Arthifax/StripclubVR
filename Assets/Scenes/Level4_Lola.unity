@@ -747,7 +747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &461444883
 Transform:
   m_ObjectHideFlags: 0
@@ -2631,6 +2631,14 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1913822934}
+    - target: {fileID: 3528571861064279501, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
+      propertyPath: m_RayOriginTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014765569248065397, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7053574186266944151, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
       propertyPath: m_ClearFlags
       value: 1
@@ -3174,6 +3182,7 @@ MonoBehaviour:
   intro: {fileID: 32900000, guid: 043331109054b914d9197ab9c96f9864, type: 3}
   longClip: {fileID: 32900000, guid: 3dd9601d1e89dd64d9d0d2bdf2dbc9e3, type: 3}
   continueButton: {fileID: 736446570}
+  infoPanel: {fileID: 461444881}
   reveals:
   - timeSeconds: 28
     target: {fileID: 1958459556}

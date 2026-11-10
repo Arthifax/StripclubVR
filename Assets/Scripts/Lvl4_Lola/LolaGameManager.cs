@@ -28,6 +28,7 @@ namespace KarmaVR
         [SerializeField] private VideoClip intro;
         [SerializeField] private VideoClip longClip;
         [SerializeField] private GameObject continueButton;
+        [SerializeField] private GameObject infoPanel;
         [SerializeField] private TimedReveal[] reveals =
         {
             new TimedReveal { timeSeconds = 28f },
@@ -44,6 +45,8 @@ namespace KarmaVR
         {
             if (continueButton != null)
                 continueButton.SetActive(false);
+            if (infoPanel != null)
+                infoPanel.SetActive(false);
             if (nextLevelButton != null)
                 nextLevelButton.SetActive(false);
             ResetReveals();
@@ -88,7 +91,11 @@ namespace KarmaVR
         private void Update()
         {
             if (stage == Stage.PlayingLongClip && player != null && player.clip == longClip && player.isPlaying)
+            {
+                if (infoPanel != null && !infoPanel.activeSelf)
+                    infoPanel.SetActive(true);
                 RevealThrough(player.time);
+            }
         }
 
         private void RevealThrough(double seconds)
@@ -129,6 +136,8 @@ namespace KarmaVR
         private void RestoreContinueButton(string reason)
         {
             LogPlaybackError(reason);
+            if (infoPanel != null)
+                infoPanel.SetActive(false);
             ResetReveals();
             ShowContinueButton();
         }
