@@ -5162,14 +5162,19 @@ MonoBehaviour:
   answerText: {fileID: 527482275}
   answerList:
   - answer: Rachid
+    alternateAnswer: rachid
     clip: {fileID: 32900000, guid: ff5faafee5beb84448ef0354ea204da0, type: 3}
   - answer: Lumion
+    alternateAnswer: lumion
     clip: {fileID: 32900000, guid: 7c739916f4f0bc64da2d38920c3759ad, type: 3}
   - answer: 500000
+    alternateAnswer: 500000
     clip: {fileID: 32900000, guid: 4312e9e7db519c84184beb14a5d0cc95, type: 3}
   - answer: 24
+    alternateAnswer: 24
     clip: {fileID: 32900000, guid: e27397705bd6d1e438c5fbfb2e337574, type: 3}
   - answer: Informatie
+    alternateAnswer: Information
     clip: {fileID: 32900000, guid: 4b54304e8b9f5154e9904ccc616884fb, type: 3}
   keyboardToggleObjects:
   - {fileID: 924923109}
@@ -5652,7 +5657,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780008113}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000002766}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5660,7 +5665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000016689, y: 0}
+  m_AnchoredPosition: {x: 1.14, y: 0.6}
   m_SizeDelta: {x: 25, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780008115

@@ -25,7 +25,7 @@ namespace KarmaVR
         [SerializeField] private GameObject infoObject;
         [SerializeField] private TextMeshProUGUI answerText;
         [SerializeField] private GameObject[] clueTextGameObjects = new GameObject[4];
-        [SerializeField, Tooltip("Enable the camera and keyboard at scene start for testing.")]
+        [SerializeField, Tooltip("Enable the keyboard and objectives at scene start for testing.")]
         private bool activateObjectivesImmediately;
         [SerializeField] private AudioClip happySound;
         [SerializeField] private AudioSource gameEffectsAudioSource;
@@ -34,14 +34,19 @@ namespace KarmaVR
         [SerializeField, Tooltip("Live objective progress. Element 0 is objective 1.")]
         private bool[] objectives = new bool[4];
         private Stage stage;
+        private bool introFinished;
         private bool AllCluesCollected => Array.TrueForAll(objectives, clicked => clicked);
+
+        private void Awake()
+        {
+            if (controllerCameraRoot != null)
+                controllerCameraRoot.SetActive(false);
+        }
 
         private void Start()
         {
             objectives = new bool[4];
 
-            if (controllerCameraRoot != null)
-                controllerCameraRoot.SetActive(false);
             if (keyboardRoot != null)
                 keyboardRoot.SetActive(false);
             if (infoCanvasObject != null)
@@ -67,8 +72,11 @@ namespace KarmaVR
 
         private void FinishIntro()
         {
+            introFinished = true;
             if (stage == Stage.Intro)
                 BeginObjectives();
+            if (stage == Stage.Objectives && controllerCameraRoot != null)
+                controllerCameraRoot.SetActive(true);
         }
 
         private void BeginObjectives()
@@ -76,8 +84,6 @@ namespace KarmaVR
             stage = Stage.Objectives;
             if (answerText != null)
                 answerText.text = string.Empty;
-            if (controllerCameraRoot != null)
-                controllerCameraRoot.SetActive(true);
             if (keyboardRoot != null)
                 keyboardRoot.SetActive(true);
         }
@@ -159,7 +165,7 @@ namespace KarmaVR
             if (infoCanvasObject != null)
                 infoCanvasObject.SetActive(false);
             if (controllerCameraRoot != null)
-                controllerCameraRoot.SetActive(true);
+                controllerCameraRoot.SetActive(introFinished);
             if (keyboardRoot != null)
                 keyboardRoot.SetActive(true);
         }

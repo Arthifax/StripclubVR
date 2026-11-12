@@ -8,6 +8,8 @@ namespace KarmaVR
     public sealed class HallucinationEffects : MonoBehaviour
     {
         [SerializeField] private PostProcessVolume volume;
+        [SerializeField, Tooltip("Optional. Enable this camera layer only during the hallucination.")]
+        private PostProcessLayer postProcessLayer;
         [SerializeField, Range(0f, 1f)] private float peakWeight = 1f;
         [SerializeField, UnityEngine.MinAttribute(0f)] private float fadeInSeconds = 1f;
         [SerializeField, UnityEngine.MinAttribute(0f)] private float fadeOutSeconds = 0.5f;
@@ -26,15 +28,21 @@ namespace KarmaVR
 
         private void Awake()
         {
-            if (volume == null)
-                return;
-
-            volume.weight = 0f;
+            if (postProcessLayer != null)
+                postProcessLayer.enabled = false;
+            if (volume != null)
+                volume.weight = 0f;
         }
 
         public void FadeIn()
         {
-            if (animateColors && volume != null && isActiveAndEnabled)
+            if (volume == null || !isActiveAndEnabled)
+                return;
+
+            if (postProcessLayer != null)
+                postProcessLayer.enabled = true;
+
+            if (animateColors)
             {
                 // Use this volume's runtime profile so the shared asset stays unchanged.
                 PostProcessProfile profile = volume.profile;
@@ -57,7 +65,12 @@ namespace KarmaVR
         internal void FadeOut(Action completed)
         {
             cyclingColors = false;
-            StartFade(0f, fadeOutSeconds, completed);
+            StartFade(0f, fadeOutSeconds, () =>
+            {
+                if (postProcessLayer != null)
+                    postProcessLayer.enabled = false;
+                completed?.Invoke();
+            });
         }
 
         private void Update()

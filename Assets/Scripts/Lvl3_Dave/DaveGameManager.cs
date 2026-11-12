@@ -24,6 +24,7 @@ namespace KarmaVR
         private sealed class AnswerEntry
         {
             public string answer;
+            public string alternateAnswer;
             public VideoClip clip;
         }
 
@@ -121,7 +122,7 @@ namespace KarmaVR
                 return;
 
             AnswerEntry entry = answerList[answerIndex];
-            if (!MatchesAnswer(input, entry.answer.Trim()))
+            if (!MatchesAnswer(input, entry.answer) && !MatchesAnswer(input, entry.alternateAnswer))
             {
                 incorrectAnswer.Invoke();
                 return;
@@ -136,6 +137,10 @@ namespace KarmaVR
 
         private static bool MatchesAnswer(string input, string expected)
         {
+            if (string.IsNullOrWhiteSpace(expected))
+                return false;
+
+            expected = expected.Trim();
             if (string.Equals(input, expected, StringComparison.OrdinalIgnoreCase))
                 return true;
 

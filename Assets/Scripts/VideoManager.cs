@@ -15,6 +15,7 @@ namespace KarmaVR
         private VideoPlayer player;
         private bool busy;
         private bool firstFrame;
+        private long latestFrame;
         private bool ended;
         private string error;
         private RenderTexture skyboxTarget;
@@ -43,8 +44,10 @@ namespace KarmaVR
             player.errorReceived -= OnError;
             StopAllCoroutines();
             player.sendFrameReadyEvents = false;
-            player.Stop();
-            ReleaseSeekTarget(publishFrame: false);
+            if (seekTarget != null)
+                ReleaseSeekTarget(publishFrame: false);
+            else
+                player.Stop();
             if (fadeOverlay != null)
                 fadeOverlay.alpha = 0;
             busy = false;
@@ -77,8 +80,6 @@ namespace KarmaVR
                 StopAllCoroutines();
                 player.sendFrameReadyEvents = false;
                 player.Pause();
-                if (seekTarget != null)
-                    player.Stop();
                 ReleaseSeekTarget(publishFrame: false);
             }
 
@@ -101,6 +102,7 @@ namespace KarmaVR
 
             player.Stop();
             firstFrame = false;
+            latestFrame = -1;
             ended = false;
             error = null;
             player.clip = clip;
@@ -112,7 +114,7 @@ namespace KarmaVR
 
             if (error == null && !player.isPrepared)
                 error = "Video preparation timed out.";
-            if (error == null && holdLastFrame && (!player.canSetTime || player.length <= 0))
+            if (error == null && holdLastFrame && (!player.canSetTime || player.length <= 0 || player.frameCount == 0))
                 error = "This clip does not support seeking to its final frame.";
 
             if (error == null)
@@ -123,24 +125,27 @@ namespace KarmaVR
                 while (!firstFrame && !ended && error == null && Time.realtimeSinceStartup < deadline)
                     yield return null;
 
-                player.sendFrameReadyEvents = false;
                 if (firstFrame && error == null)
                 {
                     if (holdLastFrame)
                     {
-                        // Seek after decoding starts, then let the last frames render normally.
-                        if (!ended)
+                        // Capture before end-of-stream, while the decoded image is still available.
+                        long framesBeforeEnd = Math.Max(1L, (long)Math.Ceiling(player.frameRate * 0.12d));
+                        long holdFrame = Math.Max(0L, (long)player.frameCount - 1 - framesBeforeEnd);
+                        if (!ended && latestFrame < holdFrame)
                             player.time = Math.Max(0d, player.length - 0.25d);
 
                         deadline = Time.realtimeSinceStartup + startupTimeout;
-                        while (!ended && error == null && Time.realtimeSinceStartup < deadline)
+                        while (latestFrame < holdFrame && !ended && error == null &&
+                            Time.realtimeSinceStartup < deadline)
                             yield return null;
 
-                        if (!ended && error == null)
-                            error = "Timed out waiting for the clip to reach its final frame.";
+                        if (error == null && (ended || latestFrame < holdFrame))
+                            error = "Could not capture the intro backdrop before playback ended.";
                     }
                     else
                     {
+                        player.sendFrameReadyEvents = false;
                         yield return FadeTo(0);
                         while (!ended && error == null)
                             yield return null;
@@ -150,8 +155,8 @@ namespace KarmaVR
                     error = "The video did not produce a frame.";
             }
 
-            // Pause preserves the rendered frame while the puzzle is open.
-            // Stop is reserved for replacing the clip or disabling this component.
+            // Keep regular playback paused. For backdrop captures, stop only after copying the frame.
+            player.sendFrameReadyEvents = false;
             player.Pause();
             ReleaseSeekTarget(publishFrame: error == null);
             yield return FadeTo(0);
@@ -168,7 +173,6 @@ namespace KarmaVR
             if (seekTarget == null)
                 return;
 
-            player.targetTexture = skyboxTarget;
             if (publishFrame && skyboxTarget != null)
             {
                 RenderTexture previous = RenderTexture.active;
@@ -176,6 +180,10 @@ namespace KarmaVR
                 RenderTexture.active = previous;
             }
 
+            // Stop while the player still points at the temporary texture.
+            // Reconnecting it first can overwrite the held skybox image.
+            player.Stop();
+            player.targetTexture = skyboxTarget;
             RenderTexture.ReleaseTemporary(seekTarget);
             seekTarget = null;
             skyboxTarget = null;
@@ -198,7 +206,11 @@ namespace KarmaVR
             fadeOverlay.alpha = target;
         }
 
-        private void OnFrame(VideoPlayer source, long frame) => firstFrame = true;
+        private void OnFrame(VideoPlayer source, long frame)
+        {
+            firstFrame = true;
+            latestFrame = frame;
+        }
         private void OnEnd(VideoPlayer source)
         {
             source.Pause();
