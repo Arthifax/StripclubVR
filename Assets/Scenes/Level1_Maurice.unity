@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9500ed87ce4c0484b8a8ad35e583eac7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fe3228301de455d43a52ca903271ad07, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -3058,11 +3058,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936301775}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a9a75785c7ca1e54998416810652c160, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 12037dbfd618d594fb12a084fab8d3a3, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: a03d08154a6ca1c459104f093361c1f6, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 44c8d41795bbf63438fa4d363f908b6a, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -3438,15 +3438,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5728000248096882254, guid: b0544e338ef7fa04aba1f0a30a3f6f40, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.003394626
+      value: -0.005
       objectReference: {fileID: 0}
     - target: {fileID: 5728000248096882254, guid: b0544e338ef7fa04aba1f0a30a3f6f40, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.038697526
+      value: -0.145
       objectReference: {fileID: 0}
     - target: {fileID: 5728000248096882254, guid: b0544e338ef7fa04aba1f0a30a3f6f40, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.07923593
+      value: 0.235
       objectReference: {fileID: 0}
     - target: {fileID: 5728000248096882254, guid: b0544e338ef7fa04aba1f0a30a3f6f40, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4605,8 +4605,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoManager: {fileID: 936301779}
-  intro: {fileID: 32900000, guid: a9a75785c7ca1e54998416810652c160, type: 3}
-  secondVideo: {fileID: 32900000, guid: 936aa46c5e404cd4bbeddbaa84107d87, type: 3}
+  intro: {fileID: 32900000, guid: 12037dbfd618d594fb12a084fab8d3a3, type: 3}
+  secondVideo: {fileID: 32900000, guid: 6ecfed80951741b4c88b1b37ea013bc1, type: 3}
   controllerCameraRoot: {fileID: 1109870967}
   keyboardRoot: {fileID: 1280258545}
   infoCanvasObject: {fileID: 1652732389}
@@ -5443,6 +5443,10 @@ PrefabInstance:
     - target: {fileID: 6246759706918841913, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6445185585867532846, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: m_text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6512608083790779571, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchorMax.y

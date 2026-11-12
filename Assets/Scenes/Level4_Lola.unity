@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9500ed87ce4c0484b8a8ad35e583eac7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fe3228301de455d43a52ca903271ad07, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1738,7 +1738,7 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: a03d08154a6ca1c459104f093361c1f6, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 44c8d41795bbf63438fa4d363f908b6a, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -3179,8 +3179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoManager: {fileID: 936301779}
-  intro: {fileID: 32900000, guid: 043331109054b914d9197ab9c96f9864, type: 3}
-  longClip: {fileID: 32900000, guid: 3dd9601d1e89dd64d9d0d2bdf2dbc9e3, type: 3}
+  intro: {fileID: 32900000, guid: 043d2de9d353db345bffca993aeb3c6c, type: 3}
+  longClip: {fileID: 32900000, guid: 5e1654779aff15d449044f08682ee91e, type: 3}
   continueButton: {fileID: 736446570}
   infoPanel: {fileID: 461444881}
   reveals:

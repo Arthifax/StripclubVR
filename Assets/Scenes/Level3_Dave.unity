@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9500ed87ce4c0484b8a8ad35e583eac7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fe3228301de455d43a52ca903271ad07, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2831,6 +2831,10 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 351.80197
       objectReference: {fileID: 0}
+    - target: {fileID: 6445185585867532846, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6512608083790779571, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -3732,11 +3736,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936301775}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: cc4a81fc584fbfe468479b086412a5df, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b3d81a3ce19c7b149bc4ea9e9b204af1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: a03d08154a6ca1c459104f093361c1f6, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 44c8d41795bbf63438fa4d363f908b6a, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -5147,8 +5151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoManager: {fileID: 936301779}
-  intro: {fileID: 32900000, guid: cc4a81fc584fbfe468479b086412a5df, type: 3}
-  firstQuestionClip: {fileID: 32900000, guid: ec9bdf9bd9c916944b775759f2803511, type: 3}
+  intro: {fileID: 32900000, guid: b3d81a3ce19c7b149bc4ea9e9b204af1, type: 3}
+  firstQuestionClip: {fileID: 32900000, guid: 060d4c8e3f6093245a7798190c495e6c, type: 3}
   codeButton: {fileID: 649278546}
   pictureHitbox: {fileID: 274888427}
   paintingRoot: {fileID: 137567533}
@@ -5158,15 +5162,15 @@ MonoBehaviour:
   answerText: {fileID: 527482275}
   answerList:
   - answer: Rachid
-    clip: {fileID: 32900000, guid: 489b298f57e984440971c4e5a80b17e8, type: 3}
+    clip: {fileID: 32900000, guid: ff5faafee5beb84448ef0354ea204da0, type: 3}
   - answer: Lumion
-    clip: {fileID: 32900000, guid: ac7027efc00046e42b2a03a216a47028, type: 3}
+    clip: {fileID: 32900000, guid: 7c739916f4f0bc64da2d38920c3759ad, type: 3}
   - answer: 500000
-    clip: {fileID: 32900000, guid: bdcba81dee896564dac0200880c080c6, type: 3}
+    clip: {fileID: 32900000, guid: 4312e9e7db519c84184beb14a5d0cc95, type: 3}
   - answer: 24
-    clip: {fileID: 32900000, guid: 7ca309eb98d6b4e408d5c27c67d50f26, type: 3}
+    clip: {fileID: 32900000, guid: e27397705bd6d1e438c5fbfb2e337574, type: 3}
   - answer: Informatie
-    clip: {fileID: 32900000, guid: 252a21361e2f0f24a852dd8877bb8d29, type: 3}
+    clip: {fileID: 32900000, guid: 4b54304e8b9f5154e9904ccc616884fb, type: 3}
   keyboardToggleObjects:
   - {fileID: 924923109}
   - {fileID: 531430446}

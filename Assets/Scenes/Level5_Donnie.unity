@@ -1265,6 +1265,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3528571861064279501, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
+      propertyPath: m_RayOriginTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014765569248065397, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7053574186266944151, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
       propertyPath: m_ClearFlags
       value: 1
@@ -1281,7 +1289,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin (XR Rig)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3597354660248294935, guid: 5bf00c71ee489014ca374c25d3cfec15, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -5123,8 +5132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoManager: {fileID: 1565325890}
-  intro: {fileID: 32900000, guid: 777b816b6a25b834da3397978bbaddb0, type: 3}
-  secondVideo: {fileID: 32900000, guid: 6e06908c6872805469aa59cf04c812a8, type: 3}
+  intro: {fileID: 32900000, guid: 95df8b311313dc644a1564b6072b1620, type: 3}
+  secondVideo: {fileID: 32900000, guid: de125cc590af22f4ea97535bae1d7601, type: 3}
   continueButton: {fileID: 1827961481}
   pills: {fileID: 1888140093}
   hallucinationRoot: {fileID: 1923562694}
@@ -10479,7 +10488,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565325886}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 777b816b6a25b834da3397978bbaddb0, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 95df8b311313dc644a1564b6072b1620, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

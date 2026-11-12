@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9500ed87ce4c0484b8a8ad35e583eac7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fe3228301de455d43a52ca903271ad07, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2875,23 +2875,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoManager: {fileID: 1060044641}
   money: {fileID: 822883910}
-  intro: {fileID: 32900000, guid: 752b61bb303aa5b43b2e0384772e74c7, type: 3}
-  wrongPayment: {fileID: 32900000, guid: c87a9c6c725a0f94aa282994ea9be9b8, type: 3}
+  intro: {fileID: 32900000, guid: 2d76e55a53ea3c94496e29f6e703bab7, type: 3}
+  wrongPayment: {fileID: 32900000, guid: b574e4bb88e87a54caa54543c7b51601, type: 3}
   acts:
   - price: 200
-    clip: {fileID: 32900000, guid: a498ec506d86fd542ac154e831d2c825, type: 3}
+    clip: {fileID: 32900000, guid: 3b62028de635c0d4190dc38499215b85, type: 3}
     infoPanel: {fileID: 7842879899967894894}
   - price: 250
-    clip: {fileID: 32900000, guid: d3854eb09ef6bce4687b3931f4ec89c6, type: 3}
+    clip: {fileID: 32900000, guid: 67d26a1cdda491047bcd946b0996199d, type: 3}
     infoPanel: {fileID: 7842879900273722392}
   - price: 500
-    clip: {fileID: 32900000, guid: b7bc33ba365f0714dbb8937a326e52df, type: 3}
+    clip: {fileID: 32900000, guid: 9260b07bf70d71542aa9d9fa0088e811, type: 3}
     infoPanel: {fileID: 7842879900399583212}
   - price: 1500
-    clip: {fileID: 32900000, guid: 12e3678e4e2e76f46bf2e85a30ec5ddf, type: 3}
+    clip: {fileID: 32900000, guid: b83d2dc93ed3f244698669a3513fd6ea, type: 3}
     infoPanel: {fileID: 7842879900898766290}
   - price: 0
-    clip: {fileID: 32900000, guid: c87a9c6c725a0f94aa282994ea9be9b8, type: 3}
+    clip: {fileID: 32900000, guid: b574e4bb88e87a54caa54543c7b51601, type: 3}
     infoPanel: {fileID: 0}
   puzzleControls: {fileID: 7842879901129570621}
   nextLevelButton: {fileID: 1782417961}
@@ -3524,7 +3524,7 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: a03d08154a6ca1c459104f093361c1f6, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 44c8d41795bbf63438fa4d363f908b6a, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -18796,6 +18796,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6199764424170274193, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6445185585867532846, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}
+      propertyPath: m_text
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6512608083790779571, guid: 92e634d623dc91a47a42b716abc2fef6, type: 3}

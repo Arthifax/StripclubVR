@@ -146,7 +146,7 @@ namespace KarmaVR
         public void Replay()
         {
             if (ready && !playing)
-                Play(replayClip);
+                Play(replayClip, restoreIntro: finished);
         }
 
         public void LoadNextLevel()
@@ -229,7 +229,7 @@ namespace KarmaVR
             if (money != null)
                 money.SetOpen(visible && !finished);
             if (puzzleControls != null)
-                puzzleControls.SetActive(visible && !finished);
+                puzzleControls.SetActive(visible);
             if (nextLevelButton != null)
                 nextLevelButton.SetActive(visible && finished);
         }
