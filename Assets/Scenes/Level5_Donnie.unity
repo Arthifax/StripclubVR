@@ -5156,6 +5156,21 @@ MonoBehaviour:
   - {fileID: 222096672}
   - {fileID: 1414205095}
   - {fileID: 999198501}
+  gameEffectsAudioSource: {fileID: 764669632}
+  hallucinationSounds:
+  - {fileID: 8300000, guid: 32273def3d230614e820ac84315134d2, type: 3}
+  - {fileID: 8300000, guid: 911e133ca0b617548be15b8993353ab3, type: 3}
+  - {fileID: 8300000, guid: 296d77484f181ea49991291b7a8fb9a0, type: 3}
+  - {fileID: 8300000, guid: f84b029a99ce22a4cb8292900a538d50, type: 3}
+  - {fileID: 8300000, guid: 4f1de690689926846a6d3bfb62601b01, type: 3}
+  - {fileID: 8300000, guid: 3b3a5c0900edc094284c485ea2f8d193, type: 3}
+  - {fileID: 8300000, guid: c442d007fa30a034797ff6ed0b7cd756, type: 3}
+  - {fileID: 8300000, guid: 40a74465c3b0cf4438a9871bdc87efd3, type: 3}
+  - {fileID: 8300000, guid: a847eb5c410cc8544acf6412fa5ce7f8, type: 3}
+  - {fileID: 8300000, guid: f16d6e06faedb064c99eff412035676e, type: 3}
+  - {fileID: 8300000, guid: 63400b44f9f058045baf608e9f86cbe6, type: 3}
+  - {fileID: 8300000, guid: a39a87ddb0ee2934a968c41036185305, type: 3}
+  - {fileID: 8300000, guid: ba028d2f37920764eaf52bcf2a64c876, type: 3}
   exitToMenuButton: {fileID: 1710699450}
   menuScene: Hub
   gameFinished:
@@ -14086,6 +14101,8 @@ MonoBehaviour:
   peakWeight: 1
   fadeInSeconds: 1
   fadeOutSeconds: 0.5
+  animateColors: 1
+  colorTransitionSeconds: 1
 --- !u!1 &1934114694
 GameObject:
   m_ObjectHideFlags: 0

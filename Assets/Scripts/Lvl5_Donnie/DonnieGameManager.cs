@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -26,6 +27,8 @@ namespace KarmaVR
         [SerializeField] private GameObject hallucinationRoot;
         [SerializeField] private HallucinationEffects effects;
         [SerializeField] private HallucinationTarget[] targets = new HallucinationTarget[0];
+        [SerializeField] private AudioSource gameEffectsAudioSource;
+        [SerializeField] private AudioClip[] hallucinationSounds = new AudioClip[0];
         [SerializeField] private GameObject exitToMenuButton;
         [SerializeField] private string menuScene;
         [SerializeField] private UnityEvent gameFinished = new UnityEvent();
@@ -37,6 +40,7 @@ namespace KarmaVR
 
         private Stage stage;
         private int targetsStillVisible;
+        private Coroutine hallucinationAudio;
 
         private void Start()
         {
@@ -84,6 +88,42 @@ namespace KarmaVR
             SetVisible(hallucinationRoot, true);
             if (effects != null)
                 effects.FadeIn();
+
+            if (gameEffectsAudioSource != null)
+            {
+                AudioClip[] clips = System.Array.FindAll(hallucinationSounds, clip => clip != null);
+                if (clips.Length > 0)
+                    hallucinationAudio = StartCoroutine(PlayHallucinationSounds(clips));
+            }
+        }
+
+        private IEnumerator PlayHallucinationSounds(AudioClip[] clips)
+        {
+            while (true)
+            {
+                yield return new WaitForSeconds(Random.Range(7f, 10f));
+                if (gameEffectsAudioSource == null)
+                    break;
+
+                AudioClip clip = clips[Random.Range(0, clips.Length)];
+                gameEffectsAudioSource.PlayOneShot(clip);
+            }
+
+            hallucinationAudio = null;
+        }
+
+        private void OnDisable()
+        {
+            StopHallucinationSounds();
+        }
+
+        private void StopHallucinationSounds()
+        {
+            if (hallucinationAudio == null)
+                return;
+
+            StopCoroutine(hallucinationAudio);
+            hallucinationAudio = null;
         }
 
         internal void RegisterClick()
@@ -99,6 +139,7 @@ namespace KarmaVR
                 return;
 
             stage = Stage.Complete;
+            StopHallucinationSounds();
             if (effects != null)
                 effects.FadeOut(() => SetVisible(hallucinationRoot, false));
             else
